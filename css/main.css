@@ -773,11 +773,13 @@ header {
 	padding-bottom: 35px;
 }
 .investment2__text {
-	padding: 0 175px 25px 175px;
+	padding: 0 35px 25px 35px;
 	line-height: 33px;
+	font-size: 22px;
 }
 .investment2__text2 {
-	padding: 0 40px 0 77px;
+	padding: 0 55px 0 35px;
+	font-size: 22px;
 
 }
 .investment2__table {
@@ -795,18 +797,18 @@ header {
 	border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
 .investment2__table th {
-	padding: 18px 17px 5px 19px;
+	padding: 24px 17px 11px 19px;
 	color: rgba(0, 0, 0, 0.64);
 	font-weight: 500;
 	font-size: 12px;
 }
 .investment2__table td {
 	font-weight: 400;
-	padding: 5px 0;
+	padding: 9px 0;
 	font-size: 13px;
 }
 .investment2__table td.investment2__table__tr-end{
-	padding-bottom: 8px;
+	padding-bottom: 18px;
 }
 .investment2__button {
 	text-align: center;
@@ -830,4 +832,12 @@ header {
 .button:hover {
 	text-decoration: none;
 	color: #fff;
+}
+.ito {
+	padding-top: 72px;
+}
+.ito__pre-ito__title {
+	font-weight: 600;
+	line-height: 1.43;
+	color: #000000;
 }
