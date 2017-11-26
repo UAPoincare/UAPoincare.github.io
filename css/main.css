@@ -681,3 +681,80 @@ header {
 .navbar-brand svg:hover {
 	fill: #111;
 }
+.investment {
+	padding-top: 89px;
+	padding-bottom: 78px;
+}
+.investment__title {
+	text-align: center;
+	padding-bottom: 40px;
+}
+.investment__subtitle {
+	text-align: center;
+	font-size: 28px;
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+.investment__redemption,
+.investment__discount {
+	margin-left: 70px;
+	padding-right: 20px;
+	position: relative;
+}
+.investment__redemption__title,
+.investment__discount__title {
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 1.38;
+	color: #000;
+	padding-bottom: 26px;
+}
+.investment__redemption__text,
+.investment__discount__text {
+	font-size: 22px;
+	font-weight: 300;
+	padding-bottom: 50px;
+}
+.investment__redemption__formula,
+.investment__discount__formula {
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 600;
+	margin-bottom: 40px;
+}
+.investment__redemption__formula2__underline,
+.investment__discount__formula2__underline {
+	display: block;
+	border-bottom: 3px solid #000;
+	margin-bottom: 9px;
+	line-height: 36px;
+}
+.investment__redemption__img {
+	margin: 0 30px 17px 20px;
+}
+.investment__redemption__text2,
+.investment__discount__text2 {
+	font-size: 22px;
+	font-weight: 300;
+	line-height: 1.5;
+}
+.investment__discount__formula1 {
+	font-size: 38px;
+	font-weight: 600;
+	margin-top: 23px;
+}
+.investment__discount__img {
+	margin: 0 30px 32px 20px;
+}
+.investment2-wrap {
+	width: 100%;
+	min-height: 400px;
+	background-color: #252525;
+	-webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
+	clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
+}
+.investment2__title {
+	color: #fff;
+	text-align: center;
+	padding-top: 111px;
+}
