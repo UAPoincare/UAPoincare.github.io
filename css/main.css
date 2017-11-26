@@ -66,6 +66,9 @@ header {
 	padding:22px 0 0 24px;
 	margin-right: 100px;
 }
+.logo-sticky {
+	display: none;
+}
 .navbar-nav {
 	padding-top: 27px;
 }
@@ -79,6 +82,13 @@ header {
 	border: solid 1px #979797;
 	background-color: #fff !important;
 	z-index: 10;
+}
+.sticky-top .logo {
+	display: none;
+}
+.sticky-top .logo-sticky {
+	display: block;
+	margin-top: -20px;
 }
 .sticky-top .navbar-nav {
 	padding-top: 0;
@@ -237,7 +247,7 @@ header {
 
 .products h2 {
 	text-align: center;
-	padding: 60px 0 40px 0;
+	padding: 88px 0 40px 0;
 }
 .products p {
 	margin:0 5px 0 10px;
@@ -667,4 +677,7 @@ header {
 }
 .token__info_properties img {
 	margin-bottom: 26px;
+}
+.navbar-brand svg:hover {
+	fill: #111;
 }
