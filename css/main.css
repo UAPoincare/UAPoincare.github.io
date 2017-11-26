@@ -539,8 +539,132 @@ header {
 	-webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
 	clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
 }
-.rodmap__title {
+.roadmap__title {
 	color: #fff;
 	text-align: center;
 	padding-top: 90px;
+}
+.events {
+	margin-top: 93px;
+	position: relative;
+	margin-bottom: 130px;
+}
+.events__title {
+	text-align: center;
+	padding-bottom: 84px;
+}
+.events__items-left {
+	text-align: right;
+	margin-right: 113px;
+}
+.events__items-right {
+	margin-left: 113px;
+}
+.events__items-left__date,
+.events__items-right__date {
+	font-weight: 400;
+	font-size: 21px;
+	line-height: 33px;
+}
+.events__items-left__theme,
+.events__items-right__theme {
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 33px;
+}
+.events__items-left__location,
+.events__items-right__location {
+	font-weight: 300;
+	font-size: 22px;
+}
+.events__horizontal-line1,
+.events__horizontal-line2,
+.events__horizontal-line3,
+.events__horizontal-line4,
+.events__horizontal-line5,
+.events__horizontal-line6,
+.events__horizontal-line7,
+.events__horizontal-line8 {
+	position: absolute;
+	background-color: #252525;
+	height: 2px;
+	width: 85px;
+}
+.events__vertical-line {
+	position: absolute;
+	height: 1415px;
+	width: 2px;
+	background-color: #252525;
+	top: 111px;
+	left: 50%;
+}
+.events__horizontal-line1 {
+	top: 158px;
+	left: 587px;
+}
+.events__horizontal-line2 {
+	top: 337px;
+	left: 674px;
+}
+.events__horizontal-line3 {
+	top: 517px;
+	left: 587px;
+}
+.events__horizontal-line4 {
+	top: 664px;
+	left: 674px;
+}
+.events__horizontal-line5 {
+	top: 844px;
+	left: 587px;
+}
+.events__horizontal-line6 {
+	top: 1024px;
+	left: 674px;
+}
+.events__horizontal-line7 {
+	top: 1203px;
+	left: 587px;
+}
+.events__horizontal-line8 {
+	top: 1384px;
+	left: 674px;
+}
+.token-wrap {
+	min-height: 400px;
+	width: 100%;
+	background-color: #252525;
+	-webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
+	clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
+	padding-bottom: 150px;
+}
+.token__title {
+	font-weight: 600;
+	color: #ffffff;
+	text-align: center;
+	padding: 111px 0 40px 0;
+}
+.token__info {
+	font-weight: 300;
+	color: #ffffff;
+	font-size: 22px;
+	line-height: 33px;
+	padding: 0 32px;
+	text-align: center;
+}
+.token__info_properties {
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 300;
+	list-style-type: none;
+	text-align: center;
+}
+.token__info_properties div {
+	display: inline-block;
+	width: 395px;
+	margin-left: 20px;
+	text-align: left;
+}
+.token__info_properties img {
+	margin-bottom: 26px;
 }
