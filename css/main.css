@@ -127,6 +127,7 @@ header {
 	font-size: 18px;
 	font-weight: 600;
 	color: #fff;
+	display: none !important;
 }
 .token-distribution__infograph__cur-period__detailed {
 	padding: 36px 0 0 59px;
@@ -161,6 +162,7 @@ header {
 	-moz-border-radius: 100px 0px 0px 100px;
 	-webkit-border-radius: 100px 0px 0px 100px;
 	background-color: #007aff;
+	display: none;
 }
 .progressbar-line {
 	height: 62px;
@@ -168,7 +170,7 @@ header {
 	background-color: #242422;
 	position: absolute;
 	bottom: 0;
-	left: 257px;
+	left: 0px;
 }
 .progressbar-number {
 	position: absolute;
@@ -195,6 +197,14 @@ header {
 .node {
 	text-align: right;
 	margin-right: 30px;
+}
+.node-cost {
+	position: absolute;
+	top: -35px;
+	left: 10px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
 }
 .current-distribution-title {
 	padding: 26px 0 0 33px;
@@ -746,6 +756,9 @@ header {
 .investment__discount__img {
 	margin: 0 30px 32px 20px;
 }
+.investment2 {
+	color: #fff;
+}
 .investment2-wrap {
 	width: 100%;
 	min-height: 400px;
@@ -757,4 +770,64 @@ header {
 	color: #fff;
 	text-align: center;
 	padding-top: 111px;
+	padding-bottom: 35px;
+}
+.investment2__text {
+	padding: 0 175px 25px 175px;
+	line-height: 33px;
+}
+.investment2__text2 {
+	padding: 0 40px 0 77px;
+
+}
+.investment2__table {
+	background-color: #fff;
+	color: rgba(0, 0, 0, 0.64);
+	margin-left: -30px;
+	font-family: 'Roboto', sans-serif;
+	border-radius: 3px;
+	border: 5px solid #fff;
+}
+.investment2__table th,
+.investment2__table td {
+	text-align: center;
+	vertical-align: top;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+.investment2__table th {
+	padding: 18px 17px 5px 19px;
+	color: rgba(0, 0, 0, 0.64);
+	font-weight: 500;
+	font-size: 12px;
+}
+.investment2__table td {
+	font-weight: 400;
+	padding: 5px 0;
+	font-size: 13px;
+}
+.investment2__table td.investment2__table__tr-end{
+	padding-bottom: 8px;
+}
+.investment2__button {
+	text-align: center;
+	margin: 100px auto;
+	margin-bottom: 130px;
+}
+.button {
+	display: block;
+	width: 367px;
+	height: 65px;
+	background-color: #007af0;
+	color: #fff;
+	line-height: 65px;
+	border-radius: 3px;
+	box-shadow: 0 1px 5px 0 rgba(171, 175, 179, 0.6), inset 0 -2px 2px 0 rgba(122, 125, 128, 0.2);
+	border: solid 1px rgba(122, 125, 128, 0.3);
+	font-weight: 600;
+	font-size: 22px;
+	text-decoration: none;
+}
+.button:hover {
+	text-decoration: none;
+	color: #fff;
 }
