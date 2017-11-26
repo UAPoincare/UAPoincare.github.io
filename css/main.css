@@ -708,7 +708,7 @@ header {
 .investment__redemption,
 .investment__discount {
 	margin-left: 35px;
-	padding-right: 60px;
+	padding-right: 55px;
 	position: relative;
 }
 .investment__redemption__title,
@@ -849,4 +849,110 @@ header {
 	font-size: 28px;
 	font-weight: 600;
 	line-height: 40px;
+}
+.black-line {
+	height: 2px;
+	width: 90%;
+	border: 1px solid #252525;
+	margin: 15px 0 25px 0;
+}
+.ito__pre-ito__date {
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 33px;
+	margin-bottom: 0;
+}
+.ito__pre-ito__date span {
+	font-weight: 300;
+	margin-left: 40px;
+}
+.ito__pre-ito__date__end {
+	margin-left: 50px !important;
+}
+.ito__pre-ito__prop {
+	margin-top: 20px;
+}
+.ito__pre-ito__prop-left {
+	text-align: right;
+	width: 45%;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 1.5;
+}
+.ito__pre-ito__prop-right {
+	text-align: left;
+	width: 55%;
+	padding-left: 20px;
+	font-size: 22px;
+	line-height: 1.5;
+	font-weight: 300;
+}
+.ito__pre-ito__prop-left p,
+.ito__pre-ito__prop-right p {
+	margin-bottom: 0;
+}
+.ito__pre-ito__bonus {
+	text-align: center;
+	font-size: 22px;
+	font-weight: 300;
+	padding-top: 20px;
+	margin-left: -43px;
+	padding-bottom: 66px;
+}
+.ito__prop-distr {
+	margin-top: 95px;
+}
+.ito__line-black {
+	height: 2px;
+	width: 89%;
+	border: 1px solid #252525;
+	margin: -133px 0 25px 35px;
+}
+.ito__end-info {
+	font-weight: 400;
+	font-size: 22px;
+	padding-left: 20px;
+	padding-bottom: 30px;
+}
+.ito__diagram__title {
+	color: #000;
+	padding-left: 20px;
+}
+.rect_color {
+	width: 30px;
+	height: 30px;
+	border: solid 1px #252525;
+}
+.ito__diagram__diag {
+	margin-bottom: 80px;
+}
+.ito__diagram__diag__colors {
+	margin-left: 120px;
+	margin-top: 40px;
+}
+.ito__diagram__diag__colors__early p {
+	display: inline-block;
+}
+.color_wrap {
+	margin-bottom: 23px;
+}
+.color_wrap span {
+	margin-left: 38px;
+	font-weight: 400;
+	font-size: 24px;
+}
+.ito__diagram__diag__colors__early {
+	background-color: #70c1b3;
+}
+.ito__diagram__diag__colors__bounty {
+	background-color: #247ba0;
+}
+.ito__diagram__diag__colors__advisors {
+	background-color: #b2dbbf;
+}
+.ito__diagram__diag__colors__dev {
+	background-color: #ff1654;
+}
+.ito__diagram__diag__colors__participants {
+	background-color: #a6808c;
 }
