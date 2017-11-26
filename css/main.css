@@ -707,8 +707,8 @@ header {
 }
 .investment__redemption,
 .investment__discount {
-	margin-left: 70px;
-	padding-right: 20px;
+	margin-left: 35px;
+	padding-right: 60px;
 	position: relative;
 }
 .investment__redemption__title,
@@ -776,11 +776,12 @@ header {
 	padding: 0 35px 25px 35px;
 	line-height: 33px;
 	font-size: 22px;
+	font-weight: 300;
 }
 .investment2__text2 {
 	padding: 0 55px 0 35px;
 	font-size: 22px;
-
+	font-weight: 300;
 }
 .investment2__table {
 	background-color: #fff;
@@ -836,8 +837,16 @@ header {
 .ito {
 	padding-top: 72px;
 }
-.ito__pre-ito__title {
+.ito__pre-ito,
+.ito__ito {
+	padding-left: 35px;
+}
+.ito__pre-ito__title,
+.ito__ito__title {
 	font-weight: 600;
 	line-height: 1.43;
 	color: #000000;
+	font-size: 28px;
+	font-weight: 600;
+	line-height: 40px;
 }
