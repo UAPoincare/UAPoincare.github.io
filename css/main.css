@@ -455,6 +455,33 @@ header {
 .photo3 {
 	background: url('../img/member3.jpg') no-repeat center top;
 }
+.photo4 {
+	background: url('../img/member4.jpg') no-repeat center top;
+}
+.photo5 {
+	background: url('../img/member5.jpg') no-repeat center top;
+}
+.photo6 {
+	background: url('../img/member6.jpg') no-repeat center top;
+}
+.photo7 {
+	background: url('../img/member7.jpg') no-repeat center top;
+}
+.photo8 {
+	background: url('../img/member8.jpg') no-repeat center top;
+}
+.photo9 {
+	background: url('../img/member9.jpg') no-repeat center top;
+}
+.photo10 {
+	background: url('../img/member10.jpg') no-repeat center top;
+}
+.photo11 {
+	background: url('../img/member11.jpg') no-repeat center top;
+}
+.photo12 {
+	background: url('../img/member12.jpg') no-repeat center top;
+}
 .carousel-element:hover .team__social {
 	display: block;
 	background: rgba(0,0,0,0.5);
