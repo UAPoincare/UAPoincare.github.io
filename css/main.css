@@ -15,12 +15,12 @@ h3 {
 }
 h2 {
 	font-weight: 600;
-	font-size: 40px;
+	font-size: 36px;
 	color: #000;
 }
 h4 {
 	font-weight: 700;
-	font-size: 22px;
+	font-size: 18px;
 	color: #000;
 }
 .hidden {
@@ -63,7 +63,7 @@ header {
 	letter-spacing: -0.5px;
 }
 .navbar-brand {
-	padding:22px 0 0 24px;
+	padding:18px 0 0 24px;
 	margin-right: 100px;
 }
 .logo-sticky {
@@ -261,7 +261,7 @@ header {
 }
 .products p {
 	margin:0 5px 0 10px;
-	font-size: 22px;
+	font-size: 18px;
 	line-height: 33px;
 	font-weight: 300;
 }
@@ -338,7 +338,7 @@ header {
 }
 .products__properties__list_item p {
 	font-weight: 300;
-	font-size: 18px;
+	font-size: 16px;
 }
 .product-carousel {
 	background-color: #252525;
@@ -353,6 +353,8 @@ header {
 }
 .product-carousel__title {
 	padding-top: 180px;
+	font-size: 36px;
+	font-weight: 600;
 }
 .about-products-1__title {
 	font-size: 30px;
@@ -363,31 +365,32 @@ header {
 }
 .about-products-2__title {
 	font-size: 30px;
-	font-weight: 700;
+	font-weight: 600;
 	color: #fff;
 	padding-bottom: 23px;
 }
 .about-products-3__title {
 	padding-top: 126px;
-	font-weight: 700;
+	font-weight: 600;
 	color: #fff;
 	padding-bottom: 23px;
 	line-height: 39px;
+	font-size: 36px;
 }
 .about-products-3__title span {
-	font-size: 22px;
+	font-size: 18px;
 	font-weight: 400;
 }.about-products-3__items {
 	padding-bottom: 250px;
 }
 .product-carousel p {
 	font-weight: 300;
-	font-size: 22px;
+	font-size: 18px;
 	line-height: 33px;
 }
 .product-carousel ul {
 	font-weight: 300;
-	font-size: 22px;
+	font-size: 18px;
 	line-height: 33px;
 	list-style-type: none;
 	padding-left: 10px;
@@ -408,12 +411,13 @@ header {
 }
 .team__title {
 	color: #000;
-	font-weight: 700;
+	font-weight: 600;
 	padding-bottom: 25px;
+	font-size: 36px;
 }
 .team__text {
 	font-weight: 300;
-	font-size: 22px;
+	font-size: 18px;
 	line-height: 33px;
 }
 .carousel-element {
@@ -436,7 +440,7 @@ header {
 }
 .team__position {
 	font-weight: 300;
-	font-size: 22px;
+	font-size: 18px;
 	margin-bottom: 30px;
 }
 .team__social {
@@ -546,7 +550,7 @@ header {
 	font-size: 52px;
 	color: #616161;
 	line-height: 1;
-	letter-spacing: 22px;
+	letter-spacing: 18px;
 	text-align: center;
 	font-weight: 600;
 }
@@ -608,14 +612,14 @@ header {
 	position: absolute;
 	top: 5px;
 	left: 546px;
-	font-size: 22px;
+	font-size: 18px;
 	font-weight: 600;
 }
 .year_2018 {
 	position: absolute;
 	top: 5px;
 	left: 1038px;
-	font-size: 22px;
+	font-size: 18px;
 	font-weight: 600;
 }
 .roadmap__title {
@@ -655,7 +659,7 @@ header {
 .events__items-left__location,
 .events__items-right__location {
 	font-weight: 300;
-	font-size: 22px;
+	font-size: 18px;
 }
 .events__horizontal-line1,
 .events__horizontal-line2,
@@ -679,36 +683,36 @@ header {
 	left: 50%;
 }
 .events__horizontal-line1 {
-	top: 158px;
-	left: 587px;
+	top: 153px;
+	left: 517px;
 }
 .events__horizontal-line2 {
-	top: 337px;
-	left: 674px;
+	top: 332px;
+	left: 600px;
 }
 .events__horizontal-line3 {
-	top: 517px;
-	left: 587px;
+	top: 512px;
+	left: 517px;
 }
 .events__horizontal-line4 {
-	top: 664px;
-	left: 674px;
+	top: 659px;
+	left: 600px;
 }
 .events__horizontal-line5 {
-	top: 844px;
-	left: 587px;
+	top: 839px;
+	left: 517px;
 }
 .events__horizontal-line6 {
-	top: 1024px;
-	left: 674px;
+	top: 1019px;
+	left: 600px;
 }
 .events__horizontal-line7 {
-	top: 1203px;
-	left: 587px;
+	top: 1198px;
+	left: 517px;
 }
 .events__horizontal-line8 {
-	top: 1384px;
-	left: 674px;
+	top: 1379px;
+	left: 600px;
 }
 .token-wrap {
 	min-height: 400px;
@@ -727,7 +731,7 @@ header {
 .token__info {
 	font-weight: 300;
 	color: #ffffff;
-	font-size: 22px;
+	font-size: 18px;
 	line-height: 33px;
 	padding: 0 32px;
 	text-align: center;
@@ -781,14 +785,14 @@ header {
 }
 .investment__redemption__text,
 .investment__discount__text {
-	font-size: 22px;
+	font-size: 18px;
 	font-weight: 300;
 	padding-bottom: 50px;
 }
 .investment__redemption__formula,
 .investment__discount__formula {
 	font-size: 18px;
-	line-height: 22px;
+	line-height: 18px;
 	font-weight: 600;
 	margin-bottom: 40px;
 }
@@ -804,7 +808,7 @@ header {
 }
 .investment__redemption__text2,
 .investment__discount__text2 {
-	font-size: 22px;
+	font-size: 18px;
 	font-weight: 300;
 	line-height: 1.5;
 }
@@ -835,12 +839,12 @@ header {
 .investment2__text {
 	padding: 0 35px 25px 35px;
 	line-height: 33px;
-	font-size: 22px;
+	font-size: 18px;
 	font-weight: 300;
 }
 .investment2__text2 {
 	padding: 0 55px 0 35px;
-	font-size: 22px;
+	font-size: 18px;
 	font-weight: 300;
 }
 .investment2__table {
@@ -860,12 +864,12 @@ header {
 	padding: 24px 17px 11px 19px;
 	color: rgba(255, 255, 255, 0.84);
 	font-weight: 500;
-	font-size: 22px;
+	font-size: 18px;
 }
 .investment2__table td {
 	font-weight: 400;
 	padding: 9px 0;
-	font-size: 22px;
+	font-size: 18px;
 }
 .investment2__table td.investment2__table__tr-end{
 	padding-bottom: 18px;
@@ -887,7 +891,7 @@ header {
 	box-shadow: 0 1px 5px 0 rgba(171, 175, 179, 0.6), inset 0 -2px 2px 0 rgba(122, 125, 128, 0.2);
 	border: solid 1px rgba(122, 125, 128, 0.3);
 	font-weight: 600;
-	font-size: 22px;
+	font-size: 18px;
 	text-decoration: none;
 }
 .button:hover {
@@ -918,7 +922,7 @@ header {
 }
 .ito__pre-ito__date {
 	font-weight: 400;
-	font-size: 22px;
+	font-size: 18px;
 	line-height: 33px;
 	margin-bottom: 0;
 }
@@ -936,14 +940,14 @@ header {
 	text-align: right;
 	width: 45%;
 	font-weight: 400;
-	font-size: 22px;
+	font-size: 18px;
 	line-height: 1.5;
 }
 .ito__pre-ito__prop-right {
 	text-align: left;
 	width: 55%;
 	padding-left: 20px;
-	font-size: 22px;
+	font-size: 18px;
 	line-height: 1.5;
 	font-weight: 300;
 }
@@ -953,7 +957,7 @@ header {
 }
 .ito__pre-ito__bonus {
 	text-align: center;
-	font-size: 22px;
+	font-size: 18px;
 	font-weight: 300;
 	padding-top: 20px;
 	margin-left: -43px;
@@ -970,7 +974,7 @@ header {
 }
 .ito__end-info {
 	font-weight: 400;
-	font-size: 22px;
+	font-size: 18px;
 	padding-left: 20px;
 	padding-bottom: 30px;
 }
@@ -1026,14 +1030,14 @@ header {
 	min-height: 400px;
 	-webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
 	clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
-	font-size: 22px;
+	font-size: 18px;
 	font-weight: 300;
 	padding-bottom: 80px;
 }
 .distribution__title {
 	color: #fff;
-	font-weight: 700;
-	font-size: 28px;
+	font-weight: 600;
+	font-size: 36px;
 	line-height: 40px;
 }
 .distribution__subtitle {
@@ -1080,7 +1084,7 @@ header {
 	padding-top: 40px;
 }
 .github__info {
-	font-size: 22px;
+	font-size: 18px;
 	font-weight: 300;
 	line-height: 1.5;
 	padding: 35px 70px 20px 70px;
@@ -1090,12 +1094,12 @@ header {
 	text-align: center;
 }
 .github__img {
-	width: 100%;
+	width: 75%;
 }
 .github_button {
 	margin: 70px auto;
 	font-weight: 600;
-	font-size: 22px;
+	font-size: 18px;
 }
 .footer_wrap {
 	background-color: #252525;
@@ -1159,7 +1163,7 @@ header {
 }
 .contacts-us {
 	font-family: 'PT Sans', sans-serif;
-	font-size: 22px;
+	font-size: 18px;
 	font-weight: 400;
 }
 .message {
@@ -1180,7 +1184,7 @@ header {
 	box-shadow: 0 1px 5px 0 rgba(171, 175, 179, 0.6), inset 0 -2px 2px 0 rgba(122, 125, 128, 0.2);
 	border: solid 1px rgba(122, 125, 128, 0.3);
 	font-family: 'Open Sans', sans-serif;
-	font-size: 22px;
+	font-size: 18px;
 	font-weight: 600;
 	color: #fff;
 	margin-bottom: 139px;
@@ -1351,4 +1355,54 @@ header {
 	position: absolute;
 	top: 983px;
 	left: 541px;
+}
+.events__wrap {
+	width: 1200px;
+	position: relative;
+	height: 1334px;
+}
+.events__vertical-line {
+	position: absolute;
+	top: 125px;
+	left: 600px;
+}
+.left1 {
+	position: absolute;
+	top: 0;
+	left: 233px;
+}
+.left2 {
+	position: absolute;
+	top: 360px;
+	left: 338px;
+}
+.left3 {
+	position: absolute;
+	top: 683px;
+	left: 224px;
+}
+.left4 {
+	position: absolute;
+	top: 1046px;
+	left: 126px;
+}
+.right1 {
+	position: absolute;
+	top: 180px;
+	left: 600px;
+}
+.right2 {
+	position: absolute;
+	top: 507px;
+	left: 600px;
+}
+.right3 {
+	position: absolute;
+	top: 867px;
+	left: 600px;
+}
+.right4 {
+	position: absolute;
+	top: 1227px;
+	left: 600px;
 }
