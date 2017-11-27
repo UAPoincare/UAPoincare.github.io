@@ -452,6 +452,9 @@ header {
 .photo1 {
 	background: url('../img/member2.jpg') no-repeat center top;
 }
+.photo3 {
+	background: url('../img/member3.jpg') no-repeat center top;
+}
 .carousel-element:hover .team__social {
 	display: block;
 	background: rgba(0,0,0,0.5);
@@ -560,11 +563,33 @@ header {
 	background-color: #252525;
 	-webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
 	clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
+	padding-bottom: 210px;
+	padding-top: 120px;
+}
+.roadmap__table__wrap {
+	position: relative;
+	width: 1170px;
+	margin: 0 auto;
+}
+.year_2017 {
+	position: absolute;
+	top: 5px;
+	left: 546px;
+	font-size: 22px;
+	font-weight: 600;
+}
+.year_2018 {
+	position: absolute;
+	top: 5px;
+	left: 1038px;
+	font-size: 22px;
+	font-weight: 600;
 }
 .roadmap__title {
 	color: #fff;
 	text-align: center;
 	padding-top: 90px;
+	padding-bottom: 60px;
 }
 .events {
 	margin-top: 93px;
@@ -1142,4 +1167,38 @@ header {
 .terms {
 	display: block;
 	margin-bottom: 10px;
+}
+.roadmap__table {
+	background-color: #fff;
+	width: 1170px;
+	margin: 0 auto;
+}
+.roadmap__table th {
+	border-bottom: 1px solid #000;
+	font-size: 28px;
+	line-height: 40px;
+	font-weight: 600;
+	text-align: center;
+	padding: 20px 0;
+}
+.month {
+	border-left: 3px solid #000;
+	font-size: 18px;
+	font-weight: 400;
+	padding-top: 20px !important;
+	padding-bottom: 0 !important;
+}
+.month span {
+	padding:0px 13px;
+}
+.first-col {
+	width: 540px;
+}
+.roadmap__table td {
+	padding: 15px 10px;
+	text-align: right;
+}
+.month-td {
+	border-bottom: 1px solid rgba(216, 216, 216, 0.94);
+	border-left: 3px solid #000;
 }
