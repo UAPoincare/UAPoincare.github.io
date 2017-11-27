@@ -1229,3 +1229,21 @@ header {
 	border-bottom: 1px solid rgba(216, 216, 216, 0.94);
 	border-left: 3px solid #000;
 }
+.roadmap__event1 {
+	width: 123px;
+	height: 50px;
+	border-radius: 0px 22.5px 22.5px 0px;
+	background-color: #75e3d0;
+	position: absolute;
+	top: 275px;
+	left: 541px;
+}
+.roadmap__event2 {
+	width: 45px;
+	height: 50px;
+	border-radius: 100px;
+	background-color: #75e3d0;
+	position: absolute;
+	top: 340px;
+	left: 665px;
+}
