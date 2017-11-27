@@ -324,6 +324,12 @@ header {
 .products__properties__list_item {
 	max-width: 195px;
 }
+.products__properties__list_item__item1 {
+	margin-top: -20px;
+}
+.products__properties__list_item__item5 {
+	margin-top: 13px;
+}
 .products__properties__list_item img {
 	margin-bottom: 30px;
 }
@@ -1246,4 +1252,103 @@ header {
 	position: absolute;
 	top: 340px;
 	left: 665px;
+}
+.roadmap__event3 {
+	width: 83px;
+	height: 50px;
+	border-radius: 100px;
+	background-color: #75e3d0;
+	position: absolute;
+	top: 407px;
+	left: 703px;
+}
+.roadmap__event4 {
+	width: 45px;
+	height: 50px;
+	border-radius: 100px;
+	background-color: #75e3d0;
+	position: absolute;
+	top: 472px;
+	left: 703px;
+}
+.roadmap__event5 {
+	width: 45px;
+	height: 50px;
+	border-radius: 100px;
+	background-color: #75e3d0;
+	position: absolute;
+	top: 472px;
+	left: 703px;
+}
+.roadmap__event5 {
+	width: 350px;
+	height: 50px;
+	border-radius: 0px 100px 100px 0px;
+	background-color: #75e3d0;
+	position: absolute;
+	top: 526px;
+	left: 541px;
+}
+.roadmap__event6 {
+	width: 92px;
+	height: 50px;
+	border-radius: 100px;
+	background-color: #75e3d0;
+	position: absolute;
+	top: 580px;
+	left: 893px;
+}
+.roadmap__event7 {
+	width: 92px;
+	height: 50px;
+	border-radius: 100px;
+	background-color: #75e3d0;
+	position: absolute;
+	top: 634px;
+	left: 985px;
+}
+.roadmap__event8 {
+	width: 284px;
+	height: 50px;
+	border-radius: 100px;
+	background-color: #75e3d0;
+	position: absolute;
+	top: 700px;
+	left: 659px;
+}
+.roadmap__event9 {
+	width: 172px;
+	height: 50px;
+	border-radius: 100px;
+	background-color: #75e3d0;
+	position: absolute;
+	top: 820px;
+	left: 566px;
+}
+.roadmap__event10 {
+	width: 175px;
+	height: 50px;
+	border-radius: 100px 0px 0px 100px;
+	background-color: #75e3d0;
+	position: absolute;
+	top: 874px;
+	left: 995px;
+}
+.roadmap__event11 {
+	width: 203px;
+	height: 50px;
+	border-radius: 100px;
+	background-color: #75e3d0;
+	position: absolute;
+	top: 928px;
+	left: 783px;
+}
+.roadmap__event12 {
+	width: 231px;
+	height: 50px;
+	border-radius: 0px 100px 100px 0px;
+	background-color: #75e3d0;
+	position: absolute;
+	top: 983px;
+	left: 541px;
 }
