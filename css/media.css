@@ -2,22 +2,151 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+    .progressbar {
+        width: 430px;
+    }
+    .token-distribution__infograph {
+        width: 475px;
+    }
+    .timer {
+        margin-left: 50px;
+
+    }
+    .presentation {
+        margin: 196px 0 0 40px;
+    }
+    .presentation__header {
+        font-size: 42px;
+    }
+    .carousel-img-1 {
+        width: 680px;
+    }
+    .about-products-1__title {
+        margin-top: 50px;
+    }
+    .product-carousel ul {
+        margin-left: 0;
+    }
+    .about-products-2 {
+        padding-left: 85px;
+        padding-right: 50px;
+    }
+    .carousel-img-2 {
+        width: 480px;
+    }
+    .product-carousel ul li img {
+        margin-right: 3px;
+    }
+    .about-products-3__title {
+        padding-top: 155px;
+    }
+    .product-carousel ul {
+        font-size: 16px;
+    }
+    .about-products-3__items {
+        padding-bottom: 65px;
+    }
+    .investment__redemption__img {
+        margin: 0 30px 21px 20px;
+    }
+    .investment__redemption__formula2__underline {
+        line-height: 1;
+    }
+    .investment__discount__formula1 {
+        margin-top: 61px;
+    }
+    .investment__discount__img {
+        margin: 0 30px 8px 20px;
+    }
+    .name, .email, .message, .send {
+        width: 450px;
+    }
 
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+    .navbar {
+        background-color: #252525 !important;
+    }
+    .sticky-top .logo-sticky {
+        display: none;
+    }
+    .sticky-top .logo {
+        display: block;
+        margin-top: -14px;
+    }
+    .presentation__header,
+    .presentation__header2,
+    .whitepaper {
+        text-align: center;
+    }
+    .presentation {
+    margin: 115px 0 0 40px;
+    }
+    .presentation__buy,
+    .presentation__buy__button {
+        margin: 45px auto 0;
+    }
+    header {
+        height: 1330px !important;
+    }
+    .token-distribution__title {
+        padding-top: 45px;
+    }
+    .investment2__text2 {
+        padding: 0 30px;
+    }
+    .investment2__text {
+        padding: 0 30px 25px 30px;
+    }
+    .investment2__table th {
+        font-size: 18px;
+    }
+    .policy-terms-copyright {
+        margin-top: 0;
+        text-align: center;
+    }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
+    .presentation {
+        margin: 115px auto;
+    }
+    .investment2__text2 {
+        padding: 0;
+    }
+    .investment2__text {
+        padding: 0 0 25px 0;
+    }
+    .investment2__title {
+        font-size: 33px;
+    }
+    .token__info_properties div {
+        width: 330px;
+    }
+    .investment2__table th {
+        font-size: 16px;
+        padding: 24px 13px 11px 13px;
+    }
+    .investment2__table td {
+        font-size: 15px;
+    }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+    .investment2__table th {
+        font-size: 13px;
+        padding: 12px 5px 11px 5px;
+    }
+    .investment2__table td {
+        font-size: 13px;
+    }
+    .ito__diagram__diag-wrap {
+        width: 99%;
+    }
 }
 
 /* Custom, iPhone Retina */
@@ -50,5 +179,18 @@
 
  /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
+
+}
+
+@media only screen and (min-width : 1500px) {
+    .team_adviser {
+        margin: 10px 48px;
+    }
+
+}
+@media only screen and (min-width : 1800px) {
+    .team_adviser {
+        margin: 10px 55px;
+    }
 
 }

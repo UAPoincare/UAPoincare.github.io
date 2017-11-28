@@ -1,17 +1,43 @@
+var ctx = document.getElementById("myChart");
+var myChart = new Chart(ctx, {
+	type: 'doughnut',
+	data: {
+		labels: ["Early participants", "Bounty", "Advisors", "Team", "Development funds", "Participants"],
+		datasets: [{
+			label: '# of Votes',
+			data: [10, 2, 3, 20, 10, 55],
+			backgroundColor: [
+				'#3f9bfe',
+				'#72b5fe',
+				'#98c9fe',
+				'#cbe3fe',
+				'#e4f0fe',
+				'#007aff'
+			],
+		}]
+	},
+});
 
 $(window).scroll(function() {
-    if($(this).scrollTop()>800) {
-        $( ".navbar" ).addClass("sticky-top");
-    } else {
-        $( ".navbar" ).removeClass("sticky-top");
-    }
+	if($(this).scrollTop()>800) {
+		$( ".navbar" ).addClass("sticky-top");
+
+	} else {
+		$( ".navbar" ).removeClass("sticky-top");
+	}
 });
 
 $(document).ready(function() {
 	var carousel = $("#carousel");
 	carousel.owlCarousel({
-		items: 3,
-		rewindNav: true,
+		items: 1,
+		loop: true,
+		pagination: true,
+		itemsCustom : false,
+		itemsDesktop : [1199,1],
+		itemsDesktopSmall : [980,1],
+		itemsTablet: [768,1],
+		itemsMobile : [479,1],
 	});
 	$('#js-prev').click(function () {
 		carousel.trigger('owl.prev');
@@ -70,6 +96,7 @@ $(document).ready(function() {
 		$('.js-timer-days').text(event.strftime('%D'));
 		$('.js-timer-hour').text(event.strftime('%H'));
 		$('.js-timer-min').text(event.strftime('%M'));
+		$('.js-timer-sec').text(event.strftime('%S'));
 	});
 
 
@@ -79,13 +106,13 @@ $(document).ready(function() {
    var count = 146; // произвольное число
    function tick() {
 
-       count += 1;
-       document.cookie = count;
+	   count += 1;
+	   document.cookie = count;
 
-       $('.js-timer-day').text(count);
-       $('.js-timer-sum').text(count);
+	   $('.js-timer-day').text(count);
+	   $('.js-timer-sum').text(count);
 
-       setTimeout(tick, 86400000); // рандом по времени обновления
+	   setTimeout(tick, 86400000); // рандом по времени обновления
 
    }
    tick();
