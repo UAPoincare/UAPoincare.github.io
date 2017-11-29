@@ -1545,9 +1545,15 @@ footer .fa {
 }
 
 //Timeline
+// #content__timeline {
+//   margin-top: 50px;
+//   text-align: center;
+//   margin: 0 auto;
+//   max-width: 1160px;
+// }
 #content__timeline {
-  margin-top: 50px;
-  text-align: center;
+    max-width: 1160px;
+    margin: 0 auto;
 }
 /* Timeline */
 .timeline {
