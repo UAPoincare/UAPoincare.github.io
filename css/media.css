@@ -107,6 +107,12 @@
         margin-top: 0;
         text-align: center;
     }
+    .investment__discount__img {
+        margin-bottom: 25px;
+    }
+    .investment__discount__formula1 {
+        margin-top: 27px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -132,6 +138,18 @@
     }
     .investment2__table td {
         font-size: 15px;
+    }
+    .events__table__theme {
+        font-size: 22px;
+    }
+    .events__table__location {
+        font-size: 20px;
+    }
+    .name, .email, .message, .send {
+        width: 360px;
+    }
+    .policy-terms-copyright {
+        margin-left: 0;
     }
 }
 
