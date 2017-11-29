@@ -55,6 +55,7 @@ header {
 	color: #51b6fe;
 	font-weight: 600;
 	font-size: 17px;
+	line-height: 17px;
 }
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
 	color: #51b6fe;
@@ -64,13 +65,18 @@ header {
 	font-weight: 600;
 	font-size: 17px;
 	letter-spacing: -0.5px;
+	line-height: 17px;
 }
 .navbar-brand {
 	padding:18px 0 0 24px;
 	margin-right: 100px;
 }
+.logo {
+	width: 40px;
+}
 .logo-sticky {
 	display: none;
+	width: 40px;
 }
 .navbar-nav {
 	padding-top: 27px;
@@ -123,12 +129,8 @@ header {
 	border-radius: 5px;
 	-webkit-backdrop-filter: blur(5.7px);
 	backdrop-filter: blur(5.7px);
-	// background-color: rgba(187, 187, 187, 0.35);
 	margin-top: 20px;
 }
-// .token-distribution__infograph__total-distr {
-// 	width: 285px;
-// }
 .whitepaper {
 	margin-top: 93px;
 }
@@ -305,6 +307,7 @@ header {
 	text-align: center;
 	padding: 88px 0 16px 0;
 	text-transform: uppercase;
+	font-weight: 400;
 }
 .products p {
 	margin:0 5px 0 10px;
@@ -401,6 +404,7 @@ header {
 	text-align: center;
 	color: #fff;
 	text-transform: uppercase;
+	font-weight: 400;
 }
 .product-carousel__title {
 	padding: 80px 0 40px 0;
@@ -431,12 +435,6 @@ header {
 	text-align: left;
 	padding-left: 64px;
 }
-// .carousel-element__img {
-// 	margin-left: 150px;
-// }
-// .carousel-element__text__list__img {
-// 	width: auto;
-// }
 .carousel-element__img__img2 {
 	padding-top: 66px;
 }
@@ -489,9 +487,6 @@ header {
 	width: 100%;
 	padding-bottom: 65px;
 }
-// .owl-controls {
-// 	margin-top: -55px;
-// }
 .about-products-2 {
 	padding-left: 116px;
 	padding-right: 100px;
@@ -502,7 +497,7 @@ header {
 }
 .team__title {
 	color: #000;
-	font-weight: 600;
+	font-weight: 400;
 	padding-bottom: 0;
 	font-size: 36px;
 }
@@ -592,44 +587,7 @@ header {
 	width: 324px;
 	margin: 0 auto;
 }
-.photo1 {
-	background: url('../img/member2.jpg') no-repeat center top;
-}
-.photo3 {
-	background: url('../img/member3.jpg') no-repeat center top;
-}
-.photo4 {
-	background: url('../img/member4.jpg') no-repeat center top;
-}
-.photo5 {
-	background: url('../img/member5.jpg') no-repeat center top;
-}
-.photo6 {
-	background: url('../img/member6.jpg') no-repeat center top;
-}
-.photo7 {
-	background: url('../img/member7.jpg') no-repeat center top;
-}
-.photo8 {
-	background: url('../img/member8.jpg') no-repeat center top;
-}
-.photo9 {
-	background: url('../img/member9.jpg') no-repeat center top;
-}
-.photo10 {
-	background: url('../img/member10.jpg') no-repeat center top;
-}
-.photo11 {
-	background: url('../img/member11.jpg') no-repeat center top;
-}
-.photo12 {
-	background: url('../img/member12.jpg') no-repeat center top;
-}
-.carousel-element:hover .team__social {
-	display: block;
-	background: rgba(0,0,0,0.5);
-	cursor: pointer;
-}
+//
 .team__social_linkedin {
 	margin-left: 30px;
 }
@@ -754,8 +712,7 @@ footer .fa {
 .roadmap__title {
 	color: #fff;
 	text-align: center;
-	// padding-top: 90px;
-	// padding-bottom: 60px;
+	font-weight: 400;
 }
 .events {
 	margin-top: 20px;
@@ -765,6 +722,7 @@ footer .fa {
 .events__title {
 	text-align: center;
 	padding-bottom: 20px;
+	font-weight: 400;
 }
 .token-wrap {
 	min-height: 400px;
@@ -775,7 +733,7 @@ footer .fa {
 	padding-bottom: 25px;
 }
 .token__title {
-	font-weight: 600;
+	font-weight: 400;
 	color: #ffffff;
 	text-align: center;
 	padding: 80px 0 40px 0;
@@ -816,6 +774,7 @@ footer .fa {
 .investment__title {
 	text-align: center;
 	padding-bottom: 40px;
+	font-weight: 400;
 }
 .investment__subtitle {
 	text-align: center;
@@ -889,6 +848,7 @@ footer .fa {
 	text-align: center;
 	padding-top: 111px;
 	padding-bottom: 35px;
+	font-weight: 400;
 }
 .investment2__text {
 	padding: 0 175px 25px 175px;
@@ -1107,7 +1067,7 @@ footer .fa {
 }
 .distribution__title {
 	color: #fff;
-	font-weight: 600;
+	font-weight: 400;
 	font-size: 36px;
 	line-height: 40px;
 	text-align: center;
@@ -1152,6 +1112,7 @@ footer .fa {
 .github__header {
 	text-align: center;
 	padding-top: 40px;
+	font-weight: 400;
 }
 .github__info {
 	font-size: 18px;
@@ -1190,12 +1151,12 @@ footer .fa {
 	flex-wrap: wrap;
 }
 .footer__left__title {
-	font-weight: 600;
+	font-weight: 400;
 	font-size: 26px;
 	line-height: 1.54;
 }
 .footer__left__social {
-	margin: 50px 0 50px 0;
+	margin: 25px 0 50px 0;
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
@@ -1210,7 +1171,7 @@ footer .fa {
 .footer__left__social a i,
 .footer__left__social2 a i,
 .footer__left__social3 a i {
-	font-size: 50px;
+	font-size: 40px;
 }
 .footer__left__social2 a {
 	margin: 0 25px;
@@ -1543,14 +1504,6 @@ footer .fa {
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
-
-//Timeline
-// #content__timeline {
-//   margin-top: 50px;
-//   text-align: center;
-//   margin: 0 auto;
-//   max-width: 1160px;
-// }
 #content__timeline {
     max-width: 1160px;
     margin: 0 auto;
@@ -1560,7 +1513,6 @@ footer .fa {
   border-left: 1px solid rgba(255, 255, 255, 0.35);
   border-bottom-right-radius: 4px;
   border-top-right-radius: 4px;
-  // background: rgba(255, 255, 255, 0.03);
   color: #fff;
   margin: 50px auto;
   position: relative;
@@ -1577,7 +1529,6 @@ footer .fa {
   font-size: 18px;
 }
 .timeline .event {
-  // border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
   padding-bottom: 25px;
   margin-bottom: 20px;
   position: relative;
