@@ -1015,7 +1015,7 @@ footer .fa {
 .investment2__button {
 	text-align: center;
 	margin: 40px auto;
-	margin-bottom: 130px;
+	margin-bottom: 55px;
 }
 .button {
 	display: block;
@@ -1344,6 +1344,7 @@ footer .fa {
 	font-weight: 600;
 	color: #fff;
 	margin-bottom: 50px;
+	cursor: pointer;
 }
 .name {
 	margin-bottom: 20px;
@@ -1580,6 +1581,12 @@ footer .fa {
 	padding-top: 10px;
 	color: #fff;
 	cursor: pointer;
+	display: block;
+	text-decoration: none;
+}
+.presentation__buy__button:hover {
+	color: #fff;
+	text-decoration: none;
 }
 .presentation__buy {
 	margin-top: 45px;
@@ -1669,4 +1676,23 @@ footer .fa {
 	background: #252525;
 	box-shadow: 0 0 0 1px #fff;
 	border: 1px solid #fff;
+}
+.modal {
+	width: 677px;
+	height: 341px;
+	background-color: #252525;
+	overflow: hidden;
+	transition: all .7s;
+}
+.form-fancy {
+	width: 513px;
+	margin: 0 auto;
+}
+.email-fancy,
+.send-fancy {
+	width: 513px;
+}
+.email-fancy {
+	margin-top: 55px;
+	margin-bottom: 50px;
 }
