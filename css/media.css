@@ -211,6 +211,171 @@
     .ito__diagram__diag-wrap {
         width: 99%;
     }
+    .progressbar {
+        width: 250px;
+    }
+    .token-distribution__infograph {
+        width: 305px;
+    }
+    .token-distribution__title {
+        font-size: 20px;
+        text-align: center;
+    }
+    .node-cost {
+        font-size: 15px;
+    }
+    .node {
+        font-size: 15px;
+    }
+    .presentation {
+        margin-bottom: 20px;
+    }
+    .token-distribution__infograph__total-distr__title {
+        text-align: center;
+        font-size: 16px;
+    }
+    .current-distribution-title {
+        font-size: 15px;
+    }
+    .current-distribution-items__node,
+    .current-distribution-items__eth {
+        font-size: 25px;
+    }
+    .current-distribution-items__eth {
+        margin-right: 40px;
+    }
+    .current-distribution-items__eth-name {
+        padding-left: 5px;
+    }
+    .current-distr-ends {
+        font-size: 15px;
+        padding-left: 28px;
+    }
+    .timer {
+        margin-left: 0;
+    }
+    .timer__cols {
+        margin-left: 22px;
+    }
+    .timer__item {
+        width: 58px;
+        font-size: 36px;
+    }
+    .products__properties__list {
+        justify-content: center;
+    }
+    .carousel_nav_next {
+        top: 18%;
+        right: -10px;
+    }
+    .carousel_nav_prev {
+        top: 18%;
+        left: -10px;
+    }
+    .carousel-element__text__div {
+        padding-left: 35px;
+    }
+    .carousel-element__text__title {
+        padding-left: 0;
+        text-align: center;
+    }
+    .carousel-element__text__list li {
+        padding-left: 15px;
+    }
+    .product-carousel ul {
+        font-size: 14px;
+    }
+    .roadmap__title {
+        padding-top: 38px;
+    }
+    .timeline {
+        padding: 25px;
+    }
+    .timeline .event::before {
+        left: -192.5px;
+    }
+    .timeline .event::after {
+        left: -30.85px;
+    }
+    .token__info_properties div {
+        width: 257px;
+    }
+    .token__info {
+        text-align: center;
+    }
+    .token__info_properties img {
+        margin-bottom: 0px;
+        margin-top: 10px;
+        margin-right: 60px;
+    }
+    .token__info_properties {
+        margin-left: 0;
+    }
+    .token_info__list-wrapper {
+        margin-bottom: 20px;
+    }
+    .investment__redemption__formula, .investment__discount__formula {
+        font-size: 14px;
+    }
+    .investment__redemption__img {
+        margin: 0 30px 13px 20px;
+    }
+    .investment__redemption__formula2__underline, .investment__discount__formula2__underline {
+        line-height: 25px;
+    }
+    .investment__redemption__formula1 p {
+        margin-top: 28px;
+    }
+    .investment__discount__img {
+        margin-bottom: 21px;
+    }
+    .investment__discount__formula1 {
+        font-size: 32px;
+    }
+    .investment__discount__formula1 p {
+        margin-top: 38px;
+    }
+    .button {
+        width: 265px;
+    }
+    .investment2__button {
+        margin-bottom: 85px;
+    }
+    .distribution__list-right li img {
+        margin-bottom: 0px;
+        margin-left: 93px;
+        margin-top: 17px;
+    }
+    .distribution__list-right li:nth-child(2) img, .distribution__list-right li:nth-child(4) img {
+        margin-bottom: 0;
+    }
+    .distribution__list-left li img {
+        margin-bottom: 0;
+        margin-left: 111px;
+        margin-top: 25px;
+    }
+    .distribution__subtitle {
+        margin-bottom: -45px;
+    }
+    .github__info {
+        padding: 35px 20px 20px 20px;
+    }
+    .github__img {
+        width: 95%;
+    }
+    .github_button {
+        margin: 35px auto;
+    }
+    .footer__right {
+        width: 290px;
+    }
+    .name, .email, .message, .send {
+        width: 287px;
+    }
+    .arrow-down {
+        display: none;
+    }
+
 }
 
 /* Custom, iPhone Retina */

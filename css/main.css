@@ -443,18 +443,23 @@ header {
 	line-height: 1.44;
 }
 .carousel-element__text__div {
-	width: 444px;
+	max-width: 444px;
 	padding-left: 64px;
 }
 .carousel-element__text__list li {
 	text-align: left;
 	padding-left: 64px;
 }
+.carousel-element__img__img1 {
+	width: 100%;
+}
 .carousel-element__img__img2 {
 	padding-top: 66px;
+	width: 100%;
 }
 .carousel-element__img__img3 {
 	padding-top: 120px;
+	width: 100%;
 }
 .about-products-1__title {
 	font-size: 30px;
