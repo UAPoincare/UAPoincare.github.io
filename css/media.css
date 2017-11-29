@@ -116,6 +116,44 @@
     .investment__redemption__img {
         margin: 0 30px 61px 20px;
     }
+    .logo {
+        margin-left:0;
+    }
+    .logo-sticky {
+        margin-left:0;
+    }
+    .sticky-top .navbar-nav .nav-link {
+        color: #fff;
+        background-color: #252525;
+    }
+    .sticky-top .navbar-nav .dropdown-menu {
+        background-color: #252525;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 40px;
+        text-align: left;
+        line-height: 40px;
+    }
+    .sticky-top .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+        color: #fff;
+        background-color: #252525;
+    }
+    .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+        font-size: 40px;
+        text-align: left;
+        line-height: 40px;
+    }
+    .dropdown-item {
+        font-size: 40px;
+        text-align: left;
+        line-height: 40px;
+        color: #fff;
+        background-color: #252525;
+    }
+    .sticky-top .dropdown-item {
+        color: #fff;
+        background-color: #252525;
+    }
 }
 
 /* Small Devices, Tablets */
