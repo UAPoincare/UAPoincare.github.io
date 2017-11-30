@@ -99,7 +99,7 @@ $(document).ready(function() {
 		}
 	}
 
-	$(".js-timer").countdown('2017/12/01 00:00:00', function(event) {
+	$(".js-timer").countdown('2017/12/07 00:00:00', function(event) {
 		$('.js-timer-days').text(event.strftime('%D'));
 		$('.js-timer-hour').text(event.strftime('%H'));
 		$('.js-timer-min').text(event.strftime('%M'));
@@ -133,11 +133,14 @@ $(document).ready(function() {
 
 	// //Плавный скролл до блока .div по клику на .scroll
 	// //Документация: https://github.com/flesler/jquery.scrollTo
-	// $("a.scroll").click(function() {
-	// 	$.scrollTo($(".div"), 800, {
-	// 		offset: -90
-	// 	});
-	// });
+	 $("a.nav-link").click(function() {
+	 	var elem = window.location.hash;
+		 if(elem) {
+	 		$.scrollTo(elem, 800, {
+	 		offset: -90
+	 	});
+	 	};
+	 });
 	// //Скролл до id, указанного в hash URL
 	// var elem = window.location.hash;
 	// if(elem) {
