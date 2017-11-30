@@ -140,16 +140,24 @@ $(document).ready(function() {
 
 	//Аякс отправка форм
 	//Документация: http://api.jquery.com/jquery.ajax/
-	$("form").submit(function() {
+	$("form").submit(function(e) {
+		e.preventDefault();
 		$.ajax({
 			type: "GET",
 			url: "mail.php",
 			data: $("form").serialize()
 		}).done(function() {
-			alert("Thank you!");
+			$(this).find('input').val('');
 		});
 		return false;
 	});
+
+
+
+
+
+
+
 
 });
 
