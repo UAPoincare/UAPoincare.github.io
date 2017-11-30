@@ -51,14 +51,16 @@ $(document).ready(function() {
 	});
 } );
 
-$('.navbar-collapse').on('click', function () {
-    $('.navbar-collapse').collapse('hide');
-    $a = $($(this).attr('href'));
-    $('html,body').animate({ scrollTop: $a.offset().top - 50}, 500);
-    return false;
-});
+
 
 $(document).ready(function() {
+
+	$('.navbar-collapse a').on('click', function () {
+	    $('.navbar-collapse').collapse('hide');
+	    $a = $($(this).attr('href'));
+	    $('html,body').animate({ scrollTop: $a.offset().top - 50}, 500);
+	    return false;
+	});
 
 	$("#product").mouseenter(function(){
 		$(this).addClass('hover-state');
@@ -133,21 +135,7 @@ $(document).ready(function() {
 
 	// //Плавный скролл до блока .div по клику на .scroll
 	// //Документация: https://github.com/flesler/jquery.scrollTo
-	 $("a.nav-link").click(function() {
-	 	var elem = window.location.hash;
-		 if(elem) {
-	 		$.scrollTo(elem, 800, {
-	 		offset: -90
-	 	});
-	 	};
-	 });
-	// //Скролл до id, указанного в hash URL
-	// var elem = window.location.hash;
-	// if(elem) {
-	// 	$.scrollTo(elem, 800, {
-	// 		offset: -90
-	// 	});
-	// };
+
 
 
 	//Аякс отправка форм

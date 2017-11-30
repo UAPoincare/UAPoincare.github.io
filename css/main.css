@@ -374,7 +374,7 @@ header {
 	-webkit-transform: translate(-50%, -30%);
 	-ms-transform: translate(-50%, -30%);
 	transform: translate(-50%, -30%);
-	background-image: url("../img/icons.png");
+	/* background-image: url("../img/icons.png"); */
 	width: 90px;
 	height: 90px;
 	background-position: 0px 0px;
@@ -1099,7 +1099,7 @@ footer .fa {
 	line-height: 40px;
 	padding-top: 20px;
 	padding-bottom: 30px;
-	padding-left: 45px;
+	text-align: center;
 }
 .distribution__list-left,
 .distribution__list-right {
