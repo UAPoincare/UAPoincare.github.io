@@ -37,6 +37,8 @@ header {
 	clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
 	margin-top: -91px;
 }
+
+
 .header_wrapper {
 	position: relative;
 	height: 900px;
@@ -1566,6 +1568,8 @@ footer .fa {
   font-size: 24px;
   font-weight: 600;
 }
+
+
 .timeline .event:before {
   left: -217.5px;
   color: #fff;
@@ -1689,4 +1693,8 @@ footer .fa {
 .investment__container {
 	justify-content: space-between;
 	flex-wrap: wrap;
+}
+
+.visited-event {
+	background-color: #007aff;
 }
