@@ -151,7 +151,7 @@ header {
 .whitepaper {
 	margin-top: 93px;
 }
-.whitepaper a {
+.whitepaper span {
 	color: #fff;
 	font-size: 22px;
 	font-weight: 600;
@@ -206,7 +206,7 @@ header {
 	border-radius: 100px 0px 0px 100px;
 	-moz-border-radius: 100px 0px 0px 100px;
 	-webkit-border-radius: 100px 0px 0px 100px;
-	background-color: #007aff;
+	background-color: #045089;
 	display: none;
 }
 .progressbar-line {
@@ -621,7 +621,7 @@ footer .fa {
 	color: #fff;
 }
 .fa:hover {
-	color: #007aff;
+	color: #045089;
 }
 .carousel_nav_prev {
 	-moz-transform: rotate(90deg);
@@ -660,7 +660,7 @@ footer .fa {
 }
 /* Активная точка */
 .owl-page.active {
-	background: #007aff;
+	background: #045089;
 }
 .timer {
 	margin-left: 10px;
@@ -892,7 +892,7 @@ footer .fa {
 	width: 98%;
 }
 .investment2__table_first {
-	background-color: #007aff;
+	background-color: #045089;
 }
 .investment2__table th,
 .investment2__table td {
@@ -932,7 +932,7 @@ footer .fa {
 	display: block;
 	width: 367px;
 	height: 65px;
-	background-color: #007af0;
+	background-color: #045089;
 	color: #fff;
 	line-height: 65px;
 	border-radius: 3px;
@@ -1251,7 +1251,7 @@ footer .fa {
 	width: 367px;
 	height: 65px;
 	border-radius: 3px;
-	background-color: #007aff;
+	background-color: #045089;
 	box-shadow: 0 1px 5px 0 rgba(171, 175, 179, 0.6), inset 0 -2px 2px 0 rgba(122, 125, 128, 0.2);
 	border: solid 1px rgba(122, 125, 128, 0.3);
 	font-family: 'Open Sans', sans-serif;
@@ -1487,7 +1487,7 @@ footer .fa {
 	width: 261px;
 	height: 57px;
 	border-radius: 3px;
-	background-color: #007aff;
+	background-color: #045089;
 	box-shadow: inset 0 -2px 2px 0 rgba(122, 125, 128, 0.2);
 	border: solid 1px rgba(122, 125, 128, 0.3);
 	text-align: center;
@@ -1590,8 +1590,8 @@ footer .fa {
   top: 5px;
 }
 .timeline .event__blue:after {
-	background: #007aff;
-	box-shadow: 0 0 0 1px #007aff;
+	background: #045089;
+	box-shadow: 0 0 0 1px #045089;
 }
 .timeline .event__transparrent:after {
 	background: #252525;
@@ -1681,14 +1681,14 @@ footer .fa {
 	border-bottom: 2px solid #000;
 }
 .events__table tr:hover .events__table__date__head {
-	background-color: #007aff;
+	background-color: #045089;
 }
 .events__table tr:hover .events__table__theme {
-	color: #007aff;
+	color: #045089;
 	text-decoration: none;
 }
 .nav-tabs .nav-link:hover {
-	color: #007aff;
+	color: #045089;
 }
 .investment__container {
 	justify-content: space-between;
@@ -1696,5 +1696,5 @@ footer .fa {
 }
 
 .visited-event {
-	background-color: #007aff;
+	background-color: #045089;
 }

@@ -55,23 +55,27 @@ $(document).ready(function() {
 
 $(document).ready(function() {
 
-	$('.navbar-collapse a').on('click', function () {
+	$('a[href^="#"]').on('click', function () {
 	    $('.navbar-collapse').collapse('hide');
 	    $a = $($(this).attr('href'));
 	    $('html,body').animate({ scrollTop: $a.offset().top - 50}, 500);
 	    return false;
 	});
 
+	
+
+	/*
 	$("#product").mouseenter(function(){
 		$(this).addClass('hover-state');
 	}).mouseleave(function(){
 		$(this).removeClass('hover-state');
 	});
+	*/
 
 	$("#play-video.video").click(function(e){
 		e.preventDefault();
 
-		$('#product').addClass('is-transparent');
+		//$('#product').addClass('is-transparent');
 
 		player = new YT.Player('player', {
 			width : '100%',
