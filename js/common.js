@@ -55,7 +55,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
 
-	$('a[href^="#"]').on('click', function () {
+	$('.navbar-collapse a[href^="#"]').on('click', function () {
 	    $('.navbar-collapse').collapse('hide');
 	    $a = $($(this).attr('href'));
 	    $('html,body').animate({ scrollTop: $a.offset().top - 50}, 500);

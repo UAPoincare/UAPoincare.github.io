@@ -1649,9 +1649,18 @@ footer .fa {
 	color: #000;
 	text-decoration: none;
 }
+.events__table tr {border-bottom: 15px solid #fff;}
 .events__table__location {
 	font-size: 22px;
 	font-weight: 300;
+	margin-bottom: 0px;
+}
+.navbar-collapse .navbar-nav a.wp-nav-link {
+	padding: .5rem 1rem;
+	border-radius: 10px;
+	border: 2px solid #0056b3;
+	margin-left: 20px;
+
 }
 .events__table__date {
 	display: block;
