@@ -161,6 +161,8 @@
     .presentation {
         margin: 115px auto;
     }
+
+    .navbar-collapse .navbar-nav a.wp-nav-link {border: none;}
     .investment2__text2 {
         padding: 0;
     }

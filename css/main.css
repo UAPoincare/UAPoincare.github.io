@@ -150,14 +150,16 @@ header {
 	margin-top: 20px;
 }
 .whitepaper {
-	margin-top: 93px;
-}
-.whitepaper span {
-	color: #fff;
+	margin-top: 12px;
+	padding: 13px 70px;
+	border-radius: 10px;
+    border: 2px solid #045089;
+    color: #fff;
 	font-size: 22px;
 	font-weight: 600;
 	letter-spacing: -0.7px;
-	text-decoration: underline;
+	display: inline-block;
+	text-decoration: none !important;
 }
 .whitepaper__img {
 	margin-right: 12px;
@@ -1497,8 +1499,13 @@ footer .fa {
 	padding-top: 10px;
 	color: #fff;
 	cursor: pointer;
-	display: block;
+	display: inline-block;
 	text-decoration: none;
+}
+
+.telegram-chat-button img {
+	width: 55px;
+    margin-left: 25px;
 }
 .presentation__buy__button:hover {
 	color: #fff;
@@ -1582,13 +1589,31 @@ footer .fa {
 }
 .timeline .event:after {
   box-shadow: 0 0 0 1px #fff;
-  left: -55.85px;
+  left: -59.85px;
   background: #fff;
   border-radius: 50%;
-  height: 11px;
-  width: 11px;
+  height: 20px;
+  width: 20px;
   content: "";
   top: 5px;
+}
+
+
+.timeline .event p:before {
+	content: "";
+	background: url(../img/logo-node_black.svg);
+	    width: 20px;
+    height: 20px;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -60px;
+    z-index: 3;
+    top: 7px;
+}
+.timeline .event__transparrent p:before {
+	display: none;
 }
 .timeline .event__blue:after {
 	background: #045089;
