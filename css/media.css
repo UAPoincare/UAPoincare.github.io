@@ -161,8 +161,14 @@
     .presentation {
         margin: 115px auto;
     }
-
-    .navbar-collapse .navbar-nav a.wp-nav-link {border: none;}
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .navbar-collapse .navbar-nav a.wp-nav-link {
+        border: none;
+        margin-left: 32px;
+    }
     .investment2__text2 {
         padding: 0;
     }
