@@ -7,12 +7,33 @@ var myChart = new Chart(ctx, {
 			label: '# of Votes',
 			data: [10, 2, 3, 20, 10, 55],
 			backgroundColor: [
-				'#3f9bfe',
-				'#72b5fe',
-				'#98c9fe',
-				'#cbe3fe',
-				'#e4f0fe',
-				'#007aff'
+				'#062cef',
+				'#161bfd',
+				'#010490',
+				'#0142ff',
+				'#00299e',
+				'#0c7bf1'
+			],
+		}]
+	},
+});
+
+var ctx1 = document.getElementById("myChart1");
+var myChart1 = new Chart(ctx1, {
+	type: 'doughnut',
+	data: {
+		labels: ["Social Media campaign", "Translation campaign", "Blog and YouTube campaign", "Signature campaign", "Telegram campaign", "Reddit campaign", "Miscellaneous"],
+		datasets: [{
+			label: '# of Votes',
+			data: [35, 10, 15, 15, 10, 5, 5],
+			backgroundColor: [
+				'#4cb0ec',
+				'#72aed2',
+				'#0dc1e0',
+				'#4ccae0',
+				'#4aaabb',
+				'#40e6d1',
+				'#7de4d7'
 			],
 		}]
 	},
@@ -28,17 +49,25 @@ $(window).scroll(function() {
 });
 
 $(document).ready(function() {
-	var carousel = $("#carousel");
-	carousel.owlCarousel({
+
+	var carousel1 = $("#carousel-product1");
+	var carousel2 = $("#carousel-product2");
+
+	carousel1.owlCarousel({
 		items: 1,
 		loop: true,
-		pagination: true,
-		itemsCustom : false,
-		itemsDesktop : [1199,1],
-		itemsDesktopSmall : [980,1],
-		itemsTablet: [768,1],
-		itemsMobile : [479,1],
+		autoplay:false,
+		autoplayTimeout:2000,
+		autoplayHoverPause:false,
 	});
+	carousel2.owlCarousel({
+		items: 1,
+		loop: true,
+		autoplay:false,
+		autoplayTimeout:2000,
+		autoplayHoverPause:false,
+	});
+
 	$('#js-prev').click(function () {
 		carousel.trigger('owl.prev');
 		return false;
@@ -49,6 +78,7 @@ $(document).ready(function() {
 
 		return false;
 	});
+
 } );
 
 

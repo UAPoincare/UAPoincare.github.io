@@ -1635,6 +1635,13 @@ footer .fa {
     z-index: 3;
     top: 7px;
 }
+
+#carousel-product1 .carousel-element, #carousel-product2 .carousel-element {
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
 .timeline .event__transparrent p:before {
 	display: none;
 }
