@@ -734,6 +734,7 @@ footer .fa {
 	color: #fff;
 	text-align: center;
 	font-weight: 400;
+	text-transform: uppercase;
 }
 .events {
 	margin-top: 20px;
@@ -1026,8 +1027,8 @@ footer .fa {
 }
 .ito__diagram__title {
 	color: #000;
-	// padding-left: 20px;
 	text-align: center;
+	font-size: 18px;
 }
 .rect_color {
 	width: 30px;
