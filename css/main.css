@@ -1637,11 +1637,41 @@ footer .fa {
 }
 
 #carousel-product1 .carousel-element, #carousel-product2 .carousel-element {
-	height: 400px;
+	height: 350px;
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
+	cursor: pointer;
 }
+
+.owl-buttons div {
+ 	width: 20px;
+ 	height: 11px;
+ 	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	cursor: pointer;
+	text-indent: 100%;
+  	white-space: nowrap;
+  	overflow: hidden;
+  	background-image: url(../img/arrow-down.png);
+  	display: inline-block;
+
+}
+.owl-prev {
+	transform: rotate(90deg);
+	float:left;
+}
+.owl-next {
+	transform: rotate(-90deg);
+	float: right;
+}
+.owl-buttons {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+}
+
 .timeline .event__transparrent p:before {
 	display: none;
 }

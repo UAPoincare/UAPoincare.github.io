@@ -2,17 +2,21 @@ var ctx = document.getElementById("myChart");
 var myChart = new Chart(ctx, {
 	type: 'doughnut',
 	data: {
-		labels: ["Early participants", "Bounty", "Advisors", "Team", "Development funds", "Participants"],
+		labels: ["Early participants", "Bounty", "Advisors", "Team", "Development funds", "Participants","                                       ", "                                        ","                                       ", "                                        "],
 		datasets: [{
 			label: '# of Votes',
-			data: [10, 2, 3, 20, 10, 55],
+			data: [10, 2, 3, 20, 10, 55, 0, 0, 0, 0],
 			backgroundColor: [
 				'#062cef',
 				'#161bfd',
 				'#010490',
 				'#0142ff',
 				'#00299e',
-				'#0c7bf1'
+				'#0c7bf1',
+				'#fff',
+				'#fff',
+				'#fff',
+				'#fff',
 			],
 		}]
 	},
@@ -56,16 +60,14 @@ $(document).ready(function() {
 	carousel1.owlCarousel({
 		items: 1,
 		loop: true,
-		autoplay:false,
-		autoplayTimeout:2000,
-		autoplayHoverPause:false,
+		navigation: true,
+		autoPlay: true,
 	});
 	carousel2.owlCarousel({
 		items: 1,
 		loop: true,
-		autoplay:false,
-		autoplayTimeout:2000,
-		autoplayHoverPause:false,
+		navigation: true,
+		autoPlay: true,
 	});
 
 	$('#js-prev').click(function () {
