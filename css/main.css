@@ -468,7 +468,6 @@ header {
 	font-size: 30px;
 	font-weight: 600;
 	color: #fff;
-	margin-top: 160px;
 	padding-bottom: 23px;
 }
 .about-products-2__title {
@@ -511,8 +510,7 @@ header {
 	padding-bottom: 65px;
 }
 .about-products-2 {
-	padding-left: 116px;
-	padding-right: 100px;
+
 }
 .team {
 	text-align: center;
@@ -1091,7 +1089,7 @@ footer .fa {
 .distribution__title {
 	color: #fff;
 	font-weight: 400;
-	font-size: 36px;
+	text-transform: uppercase;
 	line-height: 40px;
 	text-align: center;
 }
