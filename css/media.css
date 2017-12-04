@@ -158,7 +158,13 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-    .ito__diagram__diag.d-flex {display: block !important;}
+    .d-bottom {
+        margin-bottom: 40px;
+    }
+
+    .ito__diagram__diag.d-flex {
+        display: block !important;
+    }
     .presentation {
         margin: 115px auto;
     }
@@ -219,7 +225,7 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+    .timeline .event p:before {left: -30px;}
     .presentation__buy {text-align: center;}
     .telegram-chat-button {display: block;margin: 30px auto;text-align: center;}
     .telegram-chat-button img {margin: 0;}
