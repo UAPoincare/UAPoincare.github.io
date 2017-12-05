@@ -1,0 +1,1236 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="en" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="en" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="en" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+
+	<title>Node</title>
+	<meta content="" name="description" />
+	<meta content="" property="og:image" />
+	<meta content="" property="og:description" />
+	<meta content="" property="og:site_name" />
+	<meta content="website" property="og:type" />
+
+	<meta content="telephone=no" name="format-detection" />
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<link rel="shortcut icon" href="img/favicon.png" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500&amp;subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans&amp;subset=cyrillic" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.min.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/media.css" />
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#">
+			<img src="img/logo-node.svg" width="70" height="53" alt="logo" class="logo">
+			<img src="img/logo-node_black.svg" width="70" height="53" alt="logo" class="logo-sticky">
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto" id="top-menu">
+				<li class="nav-item">
+					<a class="nav-link" href="#head">NODE <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#products">Technology</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#team">Team</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#roadmap">Roadmap</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#token">Token</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link wp-nav-link" target="_blank" href="/whitepaper.pdf">Whitepaper</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					ENG
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item" href="#">RU</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<header id="head">
+		<div class="header_wrapper">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="header__wrap d-flex">
+							<div class="presentation">
+								<!-- <h1 class="presentation__header">Welcome to Wireless Future</h1> -->
+								<h1 class="presentation__header">Intelligent technology for wireless energy</h1>
+								<!-- <a class="whitepaper" href="#" target="_blank">
+									<span>Whitepaper</span>
+								</a> -->
+								<div class="presentation__buy">
+									<a data-fancybox data-animation-duration="700" data-src="#buy-token" href="javascript:;" class="presentation__buy__button">Buy Token</a>
+									<a href="https://t.me/nodepower" class="telegram-chat-button" target="_blank"><img src="img/telegram-logo.png"></a>
+								</div>
+							</div>
+							<div class="token-distribution">
+							<div class="token-distribution__infograph">
+								<div class="token-distribution__infograph__title d-flex">
+									<div class="token-distribution__infograph__total-distr">
+										<h3 class="token-distribution__title">NODE Token Distribution</h3>
+										<h3 class="token-distribution__infograph__total-distr__title">Total distribution</h3>
+									</div>
+									<div class="token-distribution__infograph__cur-period d-flex">
+										<p class="token-distribution__infograph__cur-period__detailed">Current period</p>
+										<div class="token-distribution__infograph__cur-period__current-day js-timer-day">146</div>
+										<div class="token-distribution__infograph__cur-period__line">/</div>
+										<div class="token-distribution__infograph__cur-period__end-day">350</div>
+									</div>
+
+								</div>
+								<div class="progressbar-wrap">
+									<div id="progressbar" class="progressbar">
+										<div class="progressbar-in"></div>
+										<div class="progressbar-line"></div>
+										<p class="node-cost">0 NODE</p>
+										<p class="progressbar-number">0 NODE</p>
+									</div>
+								</div>
+								<div class="d-flex">
+									<div class="eos">0 NODE</div>
+									<div class="node">10,000,000 NODE</div>
+								</div>
+								<h3 class="current-distribution-title">Current distribution Pre-ITO</h3>
+								<div class="current-distribution-items d-flex">
+									<div class="current-distribution-items__node">
+										750 000
+									</div>
+										<div class="current-distribution-items__eth">
+											0
+										</div>
+								</div>
+								<div class="current-distribution-items-name d-flex">
+									<div class="current-distribution-items__node-name">NODE</div>
+									<div class="current-distribution-items__eth-name">NODE Recieved</div>
+								</div>
+								<div class="current-distr-ends">
+									Current Distribution starts in
+								</div>
+								<div class="timer">
+									<div class="timer__body">
+									  <div class="timer__cols js-timer d-flex">
+										<div class="timer__col">
+										  <div class="timer__item js-timer-days ">17</div>
+										  <div class="timer__caption">days</div>
+										</div><div class="two_point">:</div>
+										<div class="timer__col">
+										  <div class="timer__item js-timer-hour">20</div>
+										  <div class="timer__caption">hours</div>
+										</div><div class="two_point">:</div>
+										<div class="timer__col">
+										  <div class="timer__item js-timer-min">05</div>
+										  <div class="timer__caption">MINS</div>
+										</div><div class="two_point">:</div>
+										<div class="timer__col">
+										  <div class="timer__item js-timer-sec">05</div>
+										  <div class="timer__caption">SEC</div>
+										</div>
+									  </div>
+									</div>
+								</div>
+							</div>
+						</div>
+						</div>
+
+					</div>
+					<div class="col-lg-6 col-md-12">
+
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="arrow-down">
+							<a href="#products"><img src="img/arrow-down.png" alt="arrow down"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<video loop muted autoplay poster="img/header-fon.jpg" class="fullscreen-bg__video">
+	        <source src="img/20293201.mp4" type="video/mp4">
+	    </video>
+	</header>
+	<section id="products" class="products">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h2>What is Node</h2>
+					<p>High-tech startup creating new benchmark of wireless energy transmission for any device located at homes and offices. In the consumer sector this technology is actively used to charge smartphones, tablets, wearable devices and other electronics. Node aims to develop a wide range of applications in consumer electronics, automotive, medical and many other industries. Our investors get an opportunity not only to increase their capital, but also to become the first owners of such devices</p>
+					<div class=" section_video" id="product_video" style="background-image: url(img/eon-115.png);">
+						<a href="#" id="play-video" class="video">
+							<img src="img/play-icon.png" alt="icon-play" class="icon-play">
+							<div id="player" class="home-player"></div>
+						</a>
+					</div>
+					<div class="products__properties">
+						<div class="products__properties__list d-flex">
+							<div class="products__properties__list_item">
+								<img class="products__properties__list_item__item1" src="img/inteligent.svg" alt="img">
+								<h4>Intelligent</h4>
+								<p>Remote and simultaneous transfer of energy to many devices with any power</p>
+							</div>
+							<div class="products__properties__list_item">
+								<img src="img/responsive.svg" alt="img">
+								<h4>Responsive</h4>
+								<p>Technology can be applied to any electronics</p>
+							</div>
+							<div class="products__properties__list_item">
+								<img src="img/reasonable.svg" alt="img">
+								<h4>Reasonable</h4>
+								<p>Low to medium cost,
+								in comparison with other solutions,
+								power transfer efficiency up to 90%</p>
+							</div>
+							<div class="products__properties__list_item">
+								<img src="img/smart.svg" alt="img">
+								<h4>Smart Design </h4>
+								<p>Less wires and more space saving. Convenient use and storage</p>
+							</div>
+							<div class="products__properties__list_item mr-a">
+								<img class="products__properties__list_item__item5" src="img/stylish.svg" alt="img">
+								<h4>Stylish</h4>
+								<p>Ergonomic and modern design </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="product-carousel" id="product-carousel">
+		<div class="product-carousel-wrap">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-12">
+						<h2 class="product-carousel__title">MEET OUR PRODUCTS</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-5 offset-lg-1">
+						<div id="carousel-product1">
+							<div class="carousel-element" style="background-image: url(img/alpha/img2.png);">
+							</div>
+							<div class="carousel-element" style="background-image: url(img/alpha/img3.png);">
+							</div>
+							<div class="carousel-element" style="background-image: url(img/alpha/img4.png);">
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-5 d-bottom">
+						<div class="about-products-1">
+							<h4 class="about-products-1__title">Alpha</h4>
+							<p>Flexible pad for wireless charging of electronic devices. A large area of the charging surface allows you to charge several devices, placing them side by side or even on each other.</p>
+							<ul>
+								<li class="about-products__item"><img src="img/checkmark.png" alt="checkmark">Surface area 300x200mm</li>
+								<li class="about-products__item"><img src="img/checkmark.png" alt="checkmark">Transmitted power up to 10W</li>
+								<li class="about-products__item"><img src="img/checkmark.png" alt="checkmark">USB power supply 5V</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-lg-5 offset-lg-1">
+						<div class="about-products-2">
+							<h4 class="about-products-2__title">Eon</h4>
+							<p>Wireless charging station for desktop placement. The Eon provides charging of several devices simultaneously and is equipped with automatic power control.</p>
+							<ul>
+								<li class="about-products__item"><img src="img/checkmark.png" alt="checkmark">Radius of up to 1 meter</li>
+								<li class="about-products__item"><img src="img/checkmark.png" alt="checkmark">Transmitted power - up to 150W</li>
+								<li class="about-products__item"><img src="img/checkmark.png" alt="checkmark">Power supply- 220V</li>
+								<li class="about-products__item"><img src="img/checkmark.png" alt="checkmark">Dimensions - 100x70mm</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-5">
+						<div id="carousel-product2">
+							<div class="carousel-element" style="background-image: url(img/eon/img1.png);">
+							</div>
+							<div class="carousel-element" style="background-image: url(img/eon/img5.png);">
+							</div>
+							<div class="carousel-element" style="background-image: url(img/eon/img6.png);">
+							</div>
+						</div>
+					</div> 
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- <section class="product-carousel" id="product-carousel">
+		<div class="product-carousel-wrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h2 class="product-carousel__title">Meet our products</h2>
+			<div class="carousel-wrap">
+				<div id="carousel">
+					<div class="carousel-element d-flex">
+						<div class="carousel-element__img">
+							<img class="carousel-element__img__img1" src="img/img-1.png" alt="alpha" class="">
+						</div>
+						<div class="carousel-element__text">
+							<h3 class="carousel-element__text__title">Alpha</h3>
+							<div class="carousel-element__text__div">
+								<p class="carousel-element__text__about-product">Flexible pad for wireless charging of electronic devices. A large area of the charging surface allows you to charge several devices, placing them side by side or even on each other. </p>
+							</div>
+
+							<ul class="carousel-element__text__list">
+								<li><img class="carousel-element__text__list__img" src="img/checkmark.png" alt="alt">Surface area 300x200mm</li>
+								<li><img class="carousel-element__text__list__img" src="img/checkmark.png" alt="alt">Transmitted power up to 10W</li>
+								<li><img class="carousel-element__text__list__img" src="img/checkmark.png" alt="alt">USB power supply 5V</li>
+							</ul>
+						</div>
+					</div>
+					<div class="carousel-element d-flex">
+						<div class="carousel-element__img">
+							<img class="carousel-element__img__img2" src="img/layer-1.png" alt="eon" class="">
+						</div>
+						<div class="carousel-element__text">
+							<h3 class="carousel-element__text__title">Eon</h3>
+							<div class="carousel-element__text__div">
+								<p class="carousel-element__text__about-product">Wireless charging station for desktop placement. The device provides charging of several devices simultaneously and is equipped with automatic power control.</p>
+							</div>
+
+							<ul class="carousel-element__text__list">
+								<li><img class="carousel-element__text__list__img" src="img/checkmark.png" alt="alt">Distance up to 1 meter</li>
+								<li><img class="carousel-element__text__list__img" src="img/checkmark.png" alt="alt">Transmitted power - up to 150W</li>
+								<li><img class="carousel-element__text__list__img" src="img/checkmark.png" alt="alt">Power supply- 220V</li>
+								<li><img class="carousel-element__text__list__img" src="img/checkmark.png" alt="alt">Dimensions - 100x70mm</li>
+							</ul>
+						</div>
+					</div>
+					<div class="carousel-element d-flex">
+						<div class="carousel-element__img">
+							<img class="carousel-element__img__img3" src="img/layer-0-copy.png" alt="wireless-power-station">
+						</div>
+						<div class="carousel-element__text">
+							<h3 class="carousel-element__text__title">Wireless Power Station</h3>
+							<div class="carousel-element__text__div">
+								<p class="carousel-element__text__about-product">Wireless charging station of medium power for floor/wall mounting.
+								Can be  used to power and charge household appliances. Automatic power control. Remote control. IoT support.
+							</div>
+
+							<ul class="carousel-element__text__list">
+								<li><img class="carousel-element__text__list__img" src="img/checkmark.png" alt="alt">Radius up to 30 meters</li>
+								<li><img class="carousel-element__text__list__img" src="img/checkmark.png" alt="alt">Power up to 1kW</li>
+								<li><img class="carousel-element__text__list__img" src="img/checkmark.png" alt="alt">Power supply 220V</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="carousel_nav">
+					<p class="carousel_nav_prev"><a href="#" id="js-prev"><img src="img/arrow-down.png" alt="arrow"></a></p>
+					<p class="carousel_nav_next"><a href="#" id="js-next"><img src="img/arrow-down.png" alt="arrow"></a></p>
+				</div>
+			</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section> -->
+
+
+	<section class="team" id="team">
+		<div class="team_wrap">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-12">
+						<h3 class="team__title">WHO WE ARE</h3>
+						<p class="team__text">A team of experts dedicated to drive the technology to the next level</p>
+						<h3 class="team_advisors">advisors</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="team__team d-flex">
+							<div class="team_adviser">
+								<img class="team__img" src="img/member11.jpg" alt="adv">
+								<div class="team_adviser__detail">
+									CEO and Co-Founder of the 100AM. Previously, co-founder and Managing Director of Healbe - the company-developer of wearable devices. More than 10 years of experience in media (RBC, Hearst Shkulev Media) in marketing, business development and launching new projects. Top 5 Marketing Director in Russia (according to Kommersant rating in 2009-2010)
+								</div>
+								<div class="team_adviser__info">
+									<p class="team_adviser__info__name">George Mikaberydze</p>
+									<p class="team_adviser__info__position">Advisor</p>
+									<a href="https://www.facebook.com/george.mikaberydze" class="team__social_facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+									<a href="https://www.linkedin.com/in/georgy-mikaberydze-118b801/" class="team__social_linkedin " target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+								</div>
+							</div>
+							<div class="team_adviser">
+								<img class="team__img" src="img/member14.jpg" alt="adv">
+								<div class="team_adviser__detail">
+									Media and Brand communication consultant.
+									5 years experience in communication strategy development
+									and media campaings implementation.
+								</div>
+								<div class="team_adviser__info">
+									<p class="team_adviser__info__name">Elizaveta Tolstikova</p>
+									<p class="team_adviser__info__position">Advisor</p>
+									<a href="https://www.facebook.com/profile.php?id=100002186853324" class="team__social_facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+									<a href="https://www.linkedin.com/in/elizaveta-tolstikova-3677b296/" class="team__social_linkedin " target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+								</div>
+							</div>
+							<div class="team_adviser">
+								<img class="team__img" src="img/member12.jpg" alt="adv">
+								<div class="team_adviser__detail">
+									Expert-analyst, independent consultant on investments in ITO projects, active crypto-currency entrepreneur, experienced sales and marketing specialist. Co-founder of Aurora Blockchain Capital, which is an international investment fund specializing in analytics and investments in crypto-currency assets.
+								</div>
+								<div class="team_adviser__info">
+									<p class="team_adviser__info__name">George Erman</p>
+									<p class="team_adviser__info__position">Advisor</p>
+									<a href="https://www.facebook.com/george.erman" class="team__social_facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+									<a href="https://www.linkedin.com/in/ermangeorge/" class="team__social_linkedin " target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+								</div>
+							</div>
+							<div class="team_adviser">
+								<img class="team__img" src="img/member15.jpg" alt="adv">
+								<div class="team_adviser__detail">
+									Strategic management consultant, expert in legal accompaniment of corporation activities.
+									More than 10 years experience in mergers & acquisitions, 
+									business valuation and selling companies wether in domestic or international markets.
+								</div>
+								<div class="team_adviser__info">
+									<p class="team_adviser__info__name">Sergey Lepeshkin</p>
+									<p class="team_adviser__info__position">Advisor</p>
+									<a href="https://www.facebook.com/sergey.lepeshkin.9" class="team__social_facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+									<a href="https://www.linkedin.com/in/sergey-lepeshkin-58700438/" class="team__social_linkedin " target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<h3 class="team_not_advisors">TEAM</h3>
+						<div class="team__team d-flex">
+							<div class="team_adviser">
+								<img class="team__img" src="img/member2.jpg" alt="adv">
+								<div class="team_adviser__detail">
+									Master of Engeneering, Electronics and Communication Systems. Many years of R&D experience in electricity storage and transmission, new ceramic materials.
+								</div>
+								<div class="team_adviser__info">
+									<p class="team_adviser__info__name">Pavel Zelenin</p>
+									<p class="team_adviser__info__position">Founder</p>
+									<a href="https://www.facebook.com/pavel.zelenin" class="team__social_facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+									<a href="https://www.linkedin.com/in/pavel-zelenin" class="team__social_linkedin " target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+								</div>
+							</div>
+							<div class="team_adviser">
+								<img class="team__img" src="img/member1.jpg" alt="adv">
+								<div class="team_adviser__detail">
+									PhD in Economics.
+									More than 10 years in financial consulting, winner of "100 best products of Russia", "Financial Russia 2007", "Financial Russia 2008". Business Angel, 15 startups in the portfolio.
+
+								</div>
+								<div class="team_adviser__info">
+									<p class="team_adviser__info__name">Daniil Morozov</p>
+									<p class="team_adviser__info__position">Co-founder</p>
+									<a href="https://www.facebook.com/dmoroz0v" class="team__social_facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+									<a href="https://www.linkedin.com/in/dmoroz0v" class="team__social_linkedin " target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+								</div>
+							</div>
+							<div class="team_adviser">
+								<img class="team__img" src="img/member3.jpg" alt="adv">
+								<div class="team_adviser__detail">
+									Scientist and inventor in mechanics and mathematical modeling. PhD in technical science, founder of the theory of robots with non-absolute memory.
+								</div>
+								<div class="team_adviser__info">
+									<p class="team_adviser__info__name">Oleg Pensky</p>
+									<p class="team_adviser__info__position">Chief scientific officer</p>
+									<a href="https://www.facebook.com/ogpensky" class="team__social_facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+									<a href="https://www.linkedin.com/in/pensky-oleg-47a18834/" class="team__social_linkedin " target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+								</div>
+							</div>
+							<div class="team_adviser">
+								<img class="team__img" src="img/member13.jpg" alt="adv">
+								<div class="team_adviser__detail">
+									Specialist in the field of Internet marketing and site building. Practical experience in building a complex Internet marketing in many niches of a business, including startups. Higher technical education, specialization - information systems and technologies.
+								</div>
+								<div class="team_adviser__info">
+									<p class="team_adviser__info__name">Dmitry Okulov</p>
+									<p class="team_adviser__info__position">Chief technical officer</p>
+									<a href="https://www.facebook.com/dmitriokulov" class="team__social_facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+								</div>
+							</div>
+							<div class="team_adviser">
+								<img class="team__img" src="img/member4.jpg" alt="adv">
+								<div class="team_adviser__detail">
+									More than 10 years of experience in banking.
+									Long term practice of sales and financial analytics.
+									Constant newscaster of the "Market Survey" rubric in the program "Week Results" on the regional channel RBC.
+								</div>
+								<div class="team_adviser__info">
+									<p class="team_adviser__info__name">Irina Kotova</p>
+									<p class="team_adviser__info__position">Financial planning and accounting expert</p>
+									<a href="https://www.facebook.com/dmitriokulov" class="team__social_facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+								</div>
+							</div>
+							<div class="team_adviser">
+								<img class="team__img" src="img/member5.jpg" alt="adv">
+								<div class="team_adviser__detail">
+									Specialist in the field of investment, banking, finance and risk assessment. Eight years of experience in senior positions in companies such as: UralFD Bank and Perm-Invest. Master’s degree in Finance (Glasgow Caledonian University, Scotland)
+								</div>
+								<div class="team_adviser__info">
+									<p class="team_adviser__info__name">Denis Konogorov</p>
+									<p class="team_adviser__info__position">Investments expert</p>
+									<a href="https://www.facebook.com/denis.konogorov.3" class="team__social_facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+								</div>
+							</div>
+							<div class="team_adviser">
+								<img class="team__img" src="img/member6.jpg" alt="adv">
+								<div class="team_adviser__detail">
+									Experience in the equity market, banking sector and insurance. For more than three years, he has been leading a created group of companies, specializing in marketing and Internet promotion of clients' businesses.
+								</div>
+								<div class="team_adviser__info">
+									<p class="team_adviser__info__name">Vadim Kotov</p>
+									<p class="team_adviser__info__position">Marketing expert</p>
+									<a href="https://www.facebook.com/profile.php?id=100010785395359" class="team__social_facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+									<a href="https://www.linkedin.com/in/вадим-котов-3ba5637b" class="team__social_linkedin " target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+								</div>
+							</div>
+							<div class="team_adviser">
+								<img class="team__img" src="img/member18.jpg" alt="adv">
+								<div class="team_adviser__detail">
+									Successful management of startup projects for 4 years. Bachelor degree in Digital Marketing and Finances. Fluency in 3 languages: Spanish, English and Russian. Specialization in cryptocurrencies and Blockchain fields. Communicative, creative and innovative.
+								</div>
+								<div class="team_adviser__info">
+									<p class="team_adviser__info__name">Ekaterina Naimushina</p>
+									<p class="team_adviser__info__position">Community Manager</p>
+									<a href="https://www.linkedin.com/in/ekaterina-naimushina-280796136/" class="team__social_linkedin " target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+								</div>
+							</div>
+							<div class="team_adviser">
+								<img class="team__img" src="img/member7.jpg" alt="adv">
+								<div class="team_adviser__detail">
+									Long term practice of selling, developing documentation and consulting clients in the European and Asian markets. Has a higher legal and economic education.
+								</div>
+								<div class="team_adviser__info">
+									<p class="team_adviser__info__name">Mikhail Pan</p>
+									<p class="team_adviser__info__position">Sales. Asian markets.</p>
+									<a href="https://www.facebook.com/mike.pan.334" class="team__social_facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+									<a href="https://www.linkedin.com/in/mikhail-pan-a351284a/" class="team__social_linkedin " target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+								</div>
+							</div>
+							<div class="team_adviser">
+								<img class="team__img" src="img/member8.jpg" alt="adv">
+								<div class="team_adviser__detail">
+									Specialist in building sales systems and customer relations, as well as investments. More than 13 years of experience in such companies as: Lukoil and VISA. Master's degree in Management (Universidade Nova de Lisboa, Portugal)
+								</div>
+								<div class="team_adviser__info">
+									<p class="team_adviser__info__name">Yulia Trubnikova</p>
+									<p class="team_adviser__info__position">Sales. European and US markets</p>
+									<a href="https://www.facebook.com/julia.trubnikova.3" class="team__social_facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+									<a href="https://www.linkedin.com/in/yuliya-trubnikova-691009b" class="team__social_linkedin " target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+								</div>
+							</div>
+							<div class="team_adviser">
+								<img class="team__img" src="img/member9.jpg" alt="adv">
+								<div class="team_adviser__detail">
+									Expert with more than 15 years of experience in project management, their modification and adjustment in countries such as: UAE, Qatar, Russia, Kazakhstan. Works in close cooperation with diverse and multinational teams.
+								</div>
+								<div class="team_adviser__info">
+									<p class="team_adviser__info__name">Evgeny Petrikin</p>
+									<p class="team_adviser__info__position">Sales. East markets</p>
+									<a href="https://www.linkedin.com/in/evgeny-petrikin-pmp-b2739116/" class="team__social_linkedin1 " target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+								</div>
+							</div>
+							<div class="team_adviser">
+								<img class="team__img" src="img/member10.jpg" alt="adv">
+								<div class="team_adviser__detail">
+									Many years of experience as a designer of products in the field of technology. Master’s degree in Graphic Design and Outdoor Advertising.
+								</div>
+								<div class="team_adviser__info">
+									<p class="team_adviser__info__name">Ibtihaj Abrar</p>
+									<p class="team_adviser__info__position">Product designer</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="roadmap">
+		<div class="roadmap-wrap">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-12">
+						<div id="content__timeline">
+							  <h2 class="roadmap__title">Roadmap</h2>
+
+							  <ul class="timeline">
+								<li class="event" data-date="10.2012 — 05.2016">
+								  <p>The project initiator and like-minded peopleconducted a research in the field of semiconductor and ceramic materials and their interaction with electromagnetic  high-frequency impulsive fields</p>
+								</li>
+								<li class="event" data-date="06.2016">
+								  <p>Based on the obtained results, a decision was made to commercialize the technology</p>
+								</li>
+								<li class="event" data-date="06.2016 – 03.2017">
+								  <p>Development of schemes and technological solutions, selection of components</p>
+								</li>
+								<li class="event" data-date="04.2017">
+								  <p>Successful final testing of several prototype devices</p>
+								</li>
+								<li class="event" data-date="05.2017 – 06.2017">
+								  <p>The design concept was developed, materials and technologies for a sample batch manufacturing were selected</p>
+								</li>
+								<li class="event" data-date="05.2017">
+								  <p>Registration of Node as a legal entity</p>
+								</li>
+								<li class="event" data-date="06.2017 – 09.2017">
+								  <p>Negotiations on financing and preparation for the ITO</p>
+								</li>
+								<li class="event" data-date="10.2017 – 11.2017">
+								  <p>Creation of a corporate website and marketing materials</p>
+								</li>
+								<li class="event event__blue" data-date="12.2017 – 01.2018">
+								  <p>Pre-ITO period</p>
+								</li>
+								<li class="event event__transparrent" data-date="12.2017 – 03.2018">
+								  <p>Patent registration, certification of products, start of a commercial lot production</p>
+								</li>
+								<li class="event event__transparrent" data-date="01.2018 – 03.2018">
+								  <p>ITO period</p>
+								</li>
+								<li class="event event__transparrent" data-date="04.2018">
+								  <p>NODE token introduction to the trading exchanged</p>
+								</li>
+								<li class="event event__transparrent" data-date="03.2018 – 06.2018">
+								  <p>Launching the production of Alpha</p>
+								</li>
+								<li class="event event__transparrent" data-date="07.2018 – 05.2019">
+								  <p>Launching the production of Wireless Power Station</p>
+								</li>
+							  </ul>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="events">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h2 class="events__title">SEE YOU ALL OVER THE WORLD</h2>
+						<div class="events_wrapper">
+							<ul class="nav nav-tabs" role="tablist">
+								<li class="nav-item">
+									<a class="nav-link" href="#profile" role="tab" data-toggle="tab">November</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link active" href="#buzz" role="tab" data-toggle="tab">December</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#jan" role="tab" data-toggle="tab">January</a>
+								</li>
+							</ul>
+
+							<!-- Tab panes -->
+							<div class="tab-content">
+							<div role="tabpanel" class="tab-pane fade" id="profile">
+								<table class="events__table">
+									<tr>
+										<td>
+											<div class="events__table__date">
+												<div class="events__table__date__head visited-event"></div>
+												15
+											</div>
+										</td>
+										<td>
+											<a href="https://moscow.blockchainconf.world/ru" class="events__table__theme" target="_blank">Blockchain & Bitcoin Conference Moscow </a>
+											<p class="events__table__location">Moscow, Russia</p>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="events__table__date">
+												<div class="events__table__date__head visited-event"></div>
+												16
+											</div>
+										</td>
+										<td>
+											<a href="https://ecom21.com" class="events__table__theme" target="_blank">Rietumu ECOM21</a>
+											<p class="events__table__location">Riga, Latvia</p>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="events__table__date">
+												<div class="events__table__date__head visited-event"></div>
+												21
+											</div>
+										</td>
+										<td>
+											<a href="http://innovationmarket.com.ua/" class="events__table__theme" target="_blank">Форум Innovation Market</a>
+											<p class="events__table__location">Kiev, Ukrain</p>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="events__table__date">
+												<div class="events__table__date__head visited-event"></div>
+												25
+											</div>
+										</td>
+										<td>
+											<a href="http://blockchainsummit.com.ua/" class="events__table__theme" target="_blank">Blockchain Summit Kyiv</a>
+											<p class="events__table__location">Kiev, Ukrain</p>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="events__table__date">
+												<div class="events__table__date__head visited-event"></div>
+												25
+											</div>
+										</td>
+										<td>
+											<a href="https://bh2017.hodlhodl.com/" class="events__table__theme" target="_blank">Baltic Honeybadger 2017</a>
+											<p class="events__table__location">Riga, Latvia</p>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="events__table__date">
+												<div class="events__table__date__head visited-event"></div>
+												29
+											</div>
+										</td>
+										<td>
+											<a href="http://iidf.vc/goglobal/2017/?utm_source=regions_spb&utm_medium=regions&utm_content=RSGG_29102017&utm_campaign=accel15&" class="events__table__theme" target="_blank">RUSSIAN STARTUPS GO GLOBAL 2017 </a>
+											<p class="events__table__location">Moscow, Russia</p>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="events__table__date">
+												<div class="events__table__date__head visited-event"></div>
+												30
+											</div>
+										</td>
+										<td>
+											<a href="https://blockchainshow.eu/ " class="events__table__theme" target="_blank">Blockchain and Bitcoin Conference </a>
+											<p class="events__table__location">Limassol, Cyprus</p>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<div role="tabpanel" class="tab-pane in active" id="buzz">
+								<table class="events__table">
+									<tr>
+										<td>
+											<div class="events__table__date">
+												<div class="events__table__date__head"></div>
+												4-5
+											</div>
+										</td>
+										<td>
+											<a href="http://moontec.io" class="events__table__theme" target="_blank">Moontec 17 </a>
+											<p class="events__table__location">Tallinn, Estonia</p>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="events__table__date">
+												<div class="events__table__date__head"></div>
+												7
+											</div>
+										</td>
+										<td>
+											<a href="https://malta.blockchainconf.world/" class="events__table__theme" target="_blank">Blockchain & Bitcoin Conference </a>
+											<p class="events__table__location">Valletta, Malta</p>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="events__table__date">
+												<div class="events__table__date__head"></div>
+												8
+											</div>
+										</td>
+										<td>
+											<a href="http://cryptospace.moscow" class="events__table__theme" target="_blank">Cryptospace Conference Moscow</a>
+											<p class="events__table__location">Moscow, Russia</p>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="events__table__date">
+												<div class="events__table__date__head"></div>
+												15
+											</div>
+										</td>
+										<td>
+											<a href="http://blockchainconf.org/ru/" class="events__table__theme" target="_blank">Blockchain Conference Kyiv</a>
+											<p class="events__table__location">Kiev, Ukraine</p>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="events__table__date">
+												<div class="events__table__date__head"></div>
+												18
+											</div>
+										</td>
+										<td>
+											<a href="https://yellowdoor-events.timepad.ru/event/555622/" class="events__table__theme" target="_blank">Blockchain: future transformation </a>
+											<p class="events__table__location">Moscow, Russia </p>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="jan">
+								<table class="events__table">
+									<tr>
+										<td>
+											<div class="events__table__date">
+												<div class="events__table__date__head"></div>
+												9
+											</div>
+										</td>
+										<td>
+											<a href="http://www.ces.tech/" class="events__table__theme" target="_blank">CES 2018</a>
+											<p class="events__table__location">Las Vegas, USA</p>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="events__table__date">
+												<div class="events__table__date__head"></div>
+												15
+											</div>
+										</td>
+										<td>
+											<a href="https://coinsbank.com/cruise-asia" class="events__table__theme" target="_blank">Blockchain Cruise Asia </a>
+											<p class="events__table__location">Singapore - Malaysia - Thailand</p>
+										</td>
+									</tr>
+									
+
+
+									
+								</table>
+							</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<section id="token" class="token">
+		<div class="token-wrap">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-10 offset-lg-1">
+						<h2 class="token__title">TOKEN</h2>
+						<p class="token__info">The NODE token gives you a unique opportunity to invest in a revolutionary technological product -  wireless transmission devices for both private and commercial use. The current round of the funds raising is aimed at financing the Node devices production, marketing and sales.</p>
+						<p class="token__info token__info__center">The current stage of development is the best time to invest:</p>
+						<div class="token_info__list-wrapper d-flex">
+							<ul class="token__info_properties">
+								<li><img src="img/checkmark.png" alt="checkmark"><div>R&D phase, prototype production and testing are successfully completed</div></li>
+								<li><img src="img/checkmark.png" alt="checkmark"><div>All Tests of prototypes demonstrate full compliance with the declared characteristics</div></li>
+								<li><img src="img/checkmark.png" alt="checkmark"><div>Maximum potential for the increase in investment  </div></li>
+							</ul>
+							<ul class="token__info_properties">
+								<li><img src="img/checkmark.png" alt="checkmark"><div>Smoothed risks related to the product's performance</div></li>
+								<li><img src="img/checkmark.png" alt="checkmark"><div>Opportunity that is usually only available to business angels and venture capitalists.</div></li>
+							</ul>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="investment" class="investment">
+		<div class="investment-wrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h2 class="investment__title">INVESTMENT OPPORTUNITY</h2>
+						<p class="investment__subtitle">There are the following reasons why the NODE token will grow in price:</p>
+						<div class="investment__container d-flex">
+							<div class="investment__redemption">
+								<h3 class="investment__redemption__title">Redemption</h3>
+								<p class="investment__redemption__text">The Annual buyback of tokens will be calculated using the following formula:</p>
+								<div class="investment__redemption__formula d-flex">
+									<div class="investment__redemption__formula1"><p>Volume of <br> undistributed <br> profit</p></div>
+									<img src="img/group-41.svg" alt="alt" class="investment__redemption__img">
+									<div class="investment__redemption__formula2"><p class="investment__redemption__formula2__underline">Volume of NODE tokens sold</p><p>$ mln</p></div>
+								</div>
+								<p class="investment__redemption__text2">That is, if the sales level of 10 million NODE tokens is reached, 30% of the Node profit will be redeemed, followed by a subsequent burning of the tokens.</p>
+								<p class="investment__redemption__text2">Therefore, the interest income that will be received annually from the buyout of tokens will be easily calculated. Accordingly, the longer a token owner holds his tokens, the more income he can get.</p>
+								<p class="investment__redemption__text2">The NODE tokens, which will be acquired as a result of the buyout, will be burned, thus total quantity of tokens will be reduced.</p>
+							</div>
+							<div class="investment__discount">
+								<h3 class="investment__discount__title">Discount program</h3>
+								<p class="investment__discount__text">Purchase of the Node products with tokens with a 25% discount in relation to the value in a fiat currency (US dollars). At any time, the buyer will have the opportunity to purchase the Node products and pay for the order with NODE tokens. The cost of the Node products will be calculated using the following formula: </p>
+								<div class="investment__discount__formula d-flex">
+									<div class="investment__discount__formula2"><p class="investment__discount__formula2__underline">The cost of production in $</p><p>Current NODE token price <br> at the exchange</p></div>
+									<img src="img/minus.svg" alt="minus" class="investment__discount__img">
+									<div class="investment__discount__formula1"><p>25%</p></div>
+								</div>
+								<p class="investment__discount__text2">In this case, the actual cost of Alpha when paying with NODE tokens will be 74.25 USD instead of 99.0 USD.</p>
+								<p class="investment__discount__text2">The NODE tokens, which will be acquired as a result of the sale of its products, will be burned thus total quantity of tokens
+								will be reduced.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="investment2" class="investment2">
+		<div class="investment2-wrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h2 class="investment2__title">NODE TOKEN DEMAND FORECAST</h2>
+						<p class="investment2__text">The demand for NODE tokens will be formed by a combination of factors: the implementation of a buyback and the provision of a discount on products when purchased directly from Node. Depending on the ITO implementation scenario, with some assumptions, it is possible to calculate the estimated annual "organic" demand for NODE tokens.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="investment2__table__wrap">
+							<table class="investment2__table">
+								<tr class="investment2__table_first">
+									<th>Scenario</th>
+									<th>Mln, NODE <br> tokens</th>
+									<th>Direct sales<br> by tokens,<br> %</th>
+									<th>Direct sales<br> by tokens,<br> mln $</th>
+									<th>Buy-back,<br> %</th>
+									<th>Buy-back,<br> mln $</th>
+								</tr>
+								<tr class="investment2__table_second">
+									<td>1</td>
+									<td>2,5</td>
+									<td>10%</td>
+									<td>1,0</td>
+									<td>7,5%</td>
+									<td>0,19</td>
+								</tr>
+								<tr class="investment2__table_third">
+									<td>2</td>
+									<td>5,0</td>
+									<td>10%</td>
+									<td>2,3</td>
+									<td>15,0%</td>
+									<td>0,84</td>
+								</tr>
+								<tr>
+									<td class="investment2__table__tr-end">3</td>
+									<td class="investment2__table__tr-end">10,0</td>
+									<td class="investment2__table__tr-end">10%</td>
+									<td class="investment2__table__tr-end">4,8</td>
+									<td class="investment2__table__tr-end">30,0%</td>
+									<td class="investment2__table__tr-end">3,56</td>
+								</tr>
+							</table>
+						</div>
+
+					</div>
+					<div class="col-lg-12">
+						<p class="investment2__text2">That is, in the case of the third scenario, the estimated annual demand would be about 8 million US dollars without taking into account the increase in demand due to the release of new products to the market and the reduction in the number of free-to-use tokens.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<a data-fancybox data-animation-duration="700" data-src="#buy-token" href="javascript:;" class="button investment2__button">Buy TOKEN</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="ito" id="ito">
+		<div class="ito-wrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="ito__pre-ito">
+							<h3 class="ito__pre-ito__title">Pre-ITO</h3>
+							<div class="ito__pre-ito__line black-line"></div>
+							<p class="ito__pre-ito__date">Start <span>07.12.2017</span><span>12:00 UTC+2</span></p>
+							<p class="ito__pre-ito__date">End <span class="ito__pre-ito__date__end">07.01.2018</span></p>
+							<div class="ito__pre-ito__prop d-flex">
+								<div class="ito__pre-ito__prop-left">
+									<p>Token price:</p>
+									<p>Minimal contribution:</p>
+									<p>Total amount</p>
+									<p>of tokens:</p>
+								</div>
+								<div class="ito__pre-ito__prop-right">
+									<p>1 USD</p>
+									<p>10 USD in equivalent</p>
+									<br>
+									<p>0.75 million pcs.</p>
+								</div>
+							</div>
+							<p class="ito__pre-ito__bonus">Participants receive 50% bonus <br>(additional 0,5 of token per each one bought)</p>
+							<div class="ito__pre-ito__prop d-flex">
+								<div class="ito__pre-ito__prop-left">
+									<p>Total number</p>
+									<p>of tokens</p>
+									<p>including Pre-ITO:</p>
+								</div>
+								<div class="ito__pre-ito__prop-right">
+									<br>
+									<br>
+									<p>10 million pcs.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="ito__ito">
+							<h3 class="ito__ito__title">ITO</h3>
+							<div class="ito__ito__line black-line"></div>
+							<p class="ito__pre-ito__date">Start <span>15.02.2018</span><span>12:00 UTC+2</span></p>
+							<p class="ito__pre-ito__date">End <span class="ito__pre-ito__date__end">15.04.2018</span></p>
+							<div class="ito__pre-ito__prop d-flex">
+								<div class="ito__pre-ito__prop-left">
+									<p>Token price:</p>
+									<p>Minimal contribution:</p>
+									<br>
+									<p>Early participants</p>
+									<p>receive bonuses:</p>
+								</div>
+								<div class="ito__pre-ito__prop-right">
+									<p>1 USD</p>
+									<p>10 USD in equivalent</p>
+									<br>
+									<p>1-10 days <span>30%</span></p>
+									<p>11-20 days <span>20%</span></p>
+									<p>21-30 days <span>15%</span></p>
+									<p>31-40 days <span>10%</span></p>
+								</div>
+							</div>
+							<div class="ito__pre-ito__prop d-flex ito__prop-distr">
+								<div class="ito__pre-ito__prop-left">
+									<p>Token distribution:</p>
+								</div>
+								<div class="ito__pre-ito__prop-right ">
+									<p>2% of the sold</p>
+									<p>tokens on the</p>
+									<p>bounty program</p>
+								</div>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="ito__line-black"></div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12">
+							<p class="ito__end-info">All unsold and undistributed tokens are burned</p>
+							<div class="ito__diagram-wrap">
+								<div class="ito__diagram">
+									
+									<div class="ito__diagram__diag d-flex">
+										<div class="ito__diagram__diag-wrap">
+											<h3 class="ito__diagram__title">Distribution of tokens (%)</h3>
+											<canvas id="myChart" width="400" height="450"></canvas>
+										</div>
+										<div class="ito__diagram__diag-wrap">
+											<h3 class="ito__diagram__title">Bounties (%)</h3>
+											<canvas id="myChart1" width="400" height="450"></canvas>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</section>
+	<section class="distribution" id="distribution">
+		<div class="distribution-wrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h2 class="distribution__title">Funds destribution</h2>
+							<div class="distribution__container d-flex">
+								<div class="distribution__container__left">
+									<h3 class="distribution__subtitle">Pre-ITO (0,5 mln $):</h3>
+									<ul class="distribution__list-left">
+										<li><img src="img/checkmark.png" alt="checkmark" class="distribution__list-img"><div>Application for trademarks in Europe <br> and the USA <br>
+										December 2017 – January 2018</div></li>
+										<li class="li-left-second"><img src="img/checkmark.png" alt="checkmark" class="distribution__list-img"><div>Request for the patents in Europe and <br> the USA (technology) <br>
+										January 2018 – February 2018</div></li>
+										<li><img src="img/checkmark.png" alt="checkmark" class="distribution__list-img"><div>Finalization of the ITO legal structure, legal opinion obtainment <br>
+										December 2017 – January 2018</div></li>
+										<li><img src="img/checkmark.png" alt="checkmark" class="distribution__list-img"><div>Marketing campaign for the ITO <br>
+										January 2018 – March 2018</div></li>
+									</ul>
+								</div>
+								<div class="distribution__container__right">
+									<h3 class="distribution__subtitle distribution__subtitle__right">ITO (2,5-10 mln $):</h3>
+									<ul class="distribution__list-right">
+										<li><img src="img/checkmark.png" alt="checkmark" class="distribution__list-img"><div>Testing and obtaining a certification for <br> Alpha in Europe and the USA <br>
+										January 2018 – March 2018</div></li>
+										<li class="li-right-second"><img src="img/checkmark.png" alt="checkmark" class="distribution__list-img"><div>Production of the trial consignment of <br>Alpha March 2018 - May 2018</div></li>
+										<li><img src="img/checkmark.png" alt="checkmark" class="distribution__list-img"><div>Testing and obtaining a certification for <br>Eon in Europe and the USA <br>
+										May 2018 – July 2018</div></li>
+										<li class="li-right-second"><img src="img/checkmark.png" alt="checkmark" class="distribution__list-img"><div>Production of the trial consignment of <br>Eon July 2018 - September 2018</div></li>
+										<li><img src="img/checkmark.png" alt="checkmark" class="distribution__list-img"><div>Request for the patents in Europe and <br>the USA (design and model) <br>
+										(October 2018)</div></li>
+									</ul>
+								</div>
+							</div>
+
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<a data-fancybox data-animation-duration="700" data-src="#buy-token" href="javascript:;" class="button investment2__button">Participate</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="github" id="github">
+		<div class="github-wrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h2 class="github__header">SMART CONTRACT ON GITHUB</h2>
+						<p class="github__info">We share with you our source code on GitHub because of a strong will to be fair with our participants</p>
+						<img class="github__img" src="img/github.png" alt="github">
+						<a href="https://github.com/nodepower/nodepower/tree/NODE-2" class="github_button button" target="_blank">Sourse code on Github</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="footer_wrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="footer__container d-flex">
+							<div class="footer__left">
+								<h3 class="footer__left__title">FOLLOW US IN SOCIAL MEDIA</h3>
+								<div class="footer__left__social d-flex">
+									<div class="footer__left__social__item">
+										<a href="https://www.facebook.com/nodepower.eu/ " target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+									</div>
+									<div class="footer__left__social__item">
+										<a href="https://www.youtube.com/channel/UCYyeSKoizPsbmchL9MNzT1w/ " target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+									</div>
+									<div class="footer__left__social__item">
+										<a href="https://www.facebook.com/nodepower.eu/ " target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+									</div>
+									<div class="footer__left__social__item">
+										<a href="https://www.instagram.com/nodepower.eu/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+									</div>
+									<div class="footer__left__social__item">
+										<a href="https://join.slack.com/t/node-technology/shared_invite/enQtMjQ2MDQxNjY2ODA0LThlMmIzZmY3ZDc5NmU3M2UwYTU4MDZjYWUyYjRmNzc0M2QxMzFjNDcyYzU2ZTg1YWFjYTM3YmMzOWY4Y2Y5NGI/ " target="_blank"><i class="fa fa-slack" aria-hidden="true"></i></a>
+									</div>
+									<div class="footer__left__social__item">
+										<a href="https://medium.com/@nodepower" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a>
+									</div>
+									<div class="footer__left__social__item">
+										<a href="https://t.me/nodeofficial/" target="_blank"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+									</div>
+									<div class="footer__left__social__item">
+										<a href="https://www.reddit.com/user/nodepower/" target="_blank"><i class="fa fa-reddit" aria-hidden="true"></i></a>
+									</div>
+									<div class="footer__left__social__item">
+										<a href="https://www.linkedin.com/company/18262353/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+									</div>
+									<div class="footer__left__social__item">
+										<a href="https://github.com/nodepower/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="footer__right">
+								<h3 class="footer__left__title">CONTACT US</h3>
+								<p class="support">For support: <a href="mailto:support@nodepower.eu">support@nodepower.eu</a></p>
+								<p class="press support">For press: <a href="mailto:pr@nodepower.eu">pr@nodepower.eu</a></p>
+								<form action="" class="contacts-us">
+									<input type="text" name="name" id="name" value="" placeholder="name" class="name" required>
+									<input type="email" name="email" id="email" value="" placeholder="e-mail" class="email" required>
+									<textarea type="text" id="message" class="message" placeholder="Message Text"> </textarea>
+									<input type="submit" name="submit" value="Send" class="send">
+								</form>
+							</div>
+						</div>
+						<div class="policy-terms-copyright">
+							<a href="#" class="privacy-policy">Privacy Policy</a>
+							<a href="#" class="terms">Terms and Conditions</a>
+							<p class="copyright">Copyright © 2017 Node. All rights reserved</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div style="display: none;" id="buy-token" class="modal">
+		<form action="" class="form-fancy">
+			<input type="email" name="email" id="email" value="" placeholder="Enter your e-mail" class="email email-fancy" required>
+			<input type="submit" name="submit" value="Submit" class="send send-fancy">
+		</form>
+	</div>
+	<div class="hidden"></div>
+	<!-- Mandatory for Responsive Bootstrap Toolkit to operate -->
+	<div class="device-xs visible-xs"></div>
+	<div class="device-sm visible-sm"></div>
+	<div class="device-md visible-md"></div>
+	<div class="device-lg visible-lg"></div>
+	<!-- end mandatory -->
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	<script src="libs/owl-carousel/owl.carousel.js"></script>
+	<script src="libs/fancybox/jquery.fancybox.min.js"></script>
+	<!-- <script src="libs/jquery-ui/jquery-ui.min.js"></script> -->
+	<script src="js/countTo.js"></script>
+	<script src="js/jquery.countdown.min.js"></script>
+	<script src="js/chart.bundle.min.js"></script>
+	<script src="js/common.js"></script>
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
